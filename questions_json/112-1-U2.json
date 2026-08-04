@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "title": "112-1-U2",
-  "questionCount": 49,
+  "questionCount": 50,
   "questions": [
     {
       "id": 1,
@@ -807,11 +807,38 @@
         },
         {
           "id": "D",
-          "text": "SPI 皆 給 分 31. 積體電路匯流排（I ² C ）為許多感測器（例如 TI 的 TMP100/101、STM 的STTS75 1 溫度感測器）與微控板（例 如 Arduino Uno、Respberry Pi）的連接介面。下列有關I²C 之敘述，下列何者錯誤？ (A) 為同步之串列通訊方式 (B) 只有串列資料（SDA）和串列時鐘（SCL）兩條訊號 線 (C) 運作模式為多主從架構（Multi-Master, Multi-Slave） (D) 工作電壓範圍大，但典型的電壓準位為 +3.3V 或 +5V",
+          "text": "SPI",
           "isCorrect": false
         }
       ],
       "correctAnswerCount": 1
+    },
+    {
+      "id": 31,
+      "question": "積體電路匯流排（I ² C ）為許多感測器（例如 TI 的 TMP100/101、STM 的STTS75 1 溫度感測器）與微控板（例 如 Arduino Uno、Respberry Pi）的連接介面。下列有關I²C 之敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "為同步之串列通訊方式",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "只有串列資料（SDA）和串列時鐘（SCL）兩條訊號線",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "運作模式為多主從架構（Multi-Master and Multi-Slave）",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "工作電壓範圍大，但典型的電壓準位為 +3.3V 或 +5V",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 4
     },
     {
       "id": 32,

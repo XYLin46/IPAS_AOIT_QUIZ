@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "title": "109-1-U2",
-  "questionCount": 49,
+  "questionCount": 50,
   "questions": [
     {
       "id": 1,
@@ -249,6 +249,33 @@
     {
       "id": 10,
       "question": "在物聯網中，Beacon 技術扮演著室內定位的角色，下列何者為該技 術應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "低頻傳輸採用電磁感應式，屬於近距離傳遞",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "超高頻傳輸採用電磁波反向傳播式，屬於遠距離傳遞",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "將商品移入或移出倉庫時，可自動顯示商品的庫存量",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "有人進入或離開房間時，可自動開啟或關閉燈光及空調設備",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 11,
+      "question": "關於無線射頻辨識技術（Radio Frequency Identification, RFID）運作 的原理與傳輸特性，下列敘述何者「不正確」？",
       "options": [
         {
           "id": "A",
