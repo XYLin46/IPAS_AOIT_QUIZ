@@ -1,4 +1,3 @@
-cat > app.js <<'EOF'
 const APP_VERSION = 1;
 const STORAGE_KEY = "iotQuizProgressV1";
 const CONSENT_COOKIE = "iotQuizConsent";
