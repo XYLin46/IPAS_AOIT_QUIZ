@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 2,
+  "title": "111-2-U1",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "無線感測網路是由可以感測、監控所在位置的物理或環境狀況的感測 節點所組成，這些感測節點具有下列何種特性？",
+      "options": [
+        {
+          "id": "A",
+          "text": "低耗電、低成本、可支援少量網路節點",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "能接受遠端控制、高成本、可支援少量網路節點",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "低耗電、低成本、可支援大量網路節點",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "能接受遠端控制、高成本、可支援大量網路節點",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 2,
+      "question": "pH 值感測器主要是用來感測下列何種離子？",
+      "options": [
+        {
+          "id": "A",
+          "text": "",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 3,
+      "question": "下列何種感測器最常用來偵測重力？",
+      "options": [
+        {
+          "id": "A",
+          "text": "紅外線感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "超音波感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "加速度感測器",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "陀螺儀",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 4,
+      "question": "下列何項「不」是物聯網感知層的應用案例？",
+      "options": [
+        {
+          "id": "A",
+          "text": "佈建於工廠中具有二氧化碳感知能力的感測器，以檢測二氧化碳排放 量",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "佈建於工地中具有音量感知能力的感測器，以評估工地所製造的噪音",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "高速公路車輛速度資料在終端資料庫進行車流分析",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "佈建於暗巷中具有視覺感知能力的感測器，以防範可疑人士",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 5,
+      "question": "下列何項「不」是霍耳元件（Hall element）可以量測的物理量？",
+      "options": [
+        {
+          "id": "A",
+          "text": "磁通密度量測",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "溫度量測",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "電流量測",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "磁場南北極判別",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 6,
+      "question": "某博物館即將在一個120 坪開放空間展出二十件瓷器花瓶，館方計畫 將這些花瓶放置於開放式的展示櫃上，為避免展示的花瓶被盜取，展 場除了裝設監視器外，在不破壞花瓶的外觀與系統可快速導入的要求 下，您會建議最適合使用下列何者感測器技術偵測花瓶是否被擅自移 動？",
+      "options": [
+        {
+          "id": "A",
+          "text": "氣壓感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "光感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "超音波感測器",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "陀螺儀",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 2
+    },
+    {
+      "id": 7,
+      "question": "一般感測器運作的基本原理為何？",
+      "options": [
+        {
+          "id": "A",
+          "text": "將電氣量的變化轉換成物理量的變化",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "將電氣量的變化轉換成運動量的變化",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "將物理量的變化轉換成電氣量的變化",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "將物理量的變化轉換成運動量的變化",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 8,
+      "question": "下列何項為穿戴式裝置上（智慧手環或手錶），加速感測器與陀螺儀 的主要功能？",
+      "options": [
+        {
+          "id": "A",
+          "text": "顯示GPS 位置",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "偵測是否有嚴重跌倒的狀況",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "走路速度及步數",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "電子羅盤功能",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 9,
+      "question": "圖像感測在智慧家居的應用，「不」包含下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "影像位移偵測技術",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "人像臉部辨識技術",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "火災煙霧偵測技術",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "影像通話技術",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 10,
+      "question": "坊間的溫度感測元件，有些有包含類比數位轉換器（ADC），有些則 沒有，下列關於兩者在實際使用上的敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "含ADC 的溫度感測元件接腳數量比較多",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "不含ADC 的溫度感測元件精確度比較高",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "含ADC 的溫度感測元件可直接連接數位I/O 使用",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "兩種溫度感測元件都是直接連接數位I/O 使用",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 11,
+      "question": "關於RFID 讀取器與標籤間的電磁耦合（Electromagnetic coupling）的 敘述，下列何項錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "低頻（LF）與高頻（HF）標籤利用感應式耦合（Inductive coupling）傳 遞能量給標籤，以回傳訊號",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "超高頻（UHF）標籤則是利用反向散射耦合（Backscattered coupling） 方式傳遞能量給標籤",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "主動通訊的433 MHz 可同時採用直接電磁耦合與反向散射耦合方式傳 遞能量給標籤",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "主動通訊的2.45 GHz 是不需靠電磁耦合的能量傳遞，可藉由標籤上的 電池供給能量，與讀取器進行通訊",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 12,
+      "question": "假設某古蹟維護計畫，想將古蹟之原有建材，利用科技技術編號，以 利未來之盤點及維護。下列何種辨識技術最適合此項應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "條碼辨識技術",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "接觸式晶片卡辨識技術",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "被動式RFID 辨識技術",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "主動式RFID 辨識技術",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 13,
+      "question": "當有多張卡片進入讀取器的感應範圍時，下列哪一項機制會從中挑選 出一張進行操作，而未被選中的卡片則會繼續等待，被選中的卡片會 傳回卡號？",
+      "options": [
+        {
+          "id": "A",
+          "text": "振幅調變機制（Amplitude Modulation）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "不歸零編碼機制（Non-Return to Zero）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "防碰撞機制（Anti-Collision Loop Get Serial Number）",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "頻率調變機制（Frequency Modulation）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 14,
+      "question": "假設一個讀取器發射功率為1 瓦（watt），其發射功率為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 dBm",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "20 dBm",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "30 dBm",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "50 dBm",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 15,
+      "question": "下列何者「不」是NFC（Near field communication）辨識技術可以支 援的應用設計？",
+      "options": [
+        {
+          "id": "A",
+          "text": "室外定位追蹤",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "以Android Beam 傳輸檔案資料",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "用穿戴裝置行動支付",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "NFC 藍牙無線喇叭",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 16,
+      "question": "「RFID 屏蔽防盜錄皮夾」是保護卡片資料不被讀取的商品，關於 「RFID 屏蔽防盜錄皮夾」的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "為法拉第籠（Faraday cage）效應的應用",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "利用金屬屏蔽，電磁波幾乎完全反射無法穿透",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "主要是防止皮夾內RFID 卡片被未知的掃描",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "此類產品防止高頻卡片效果較好，但無法防止超高頻RFID 標籤被讀 取",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 17,
+      "question": "附圖為RFID 系統的運作項目，其運作順序為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "35241",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "35124",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "42135",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "14352",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 18,
+      "question": "下列何者屬於「應用層」的物聯網通訊協定？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Z-Wave",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "ZigBee",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "MQTT",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Bluetooth",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 19,
+      "question": "感知層中的閘道器或設備，與物聯網雲端平台之間若透過HTTPS 方 式進行通訊，於驗證CA 憑證後還需要進行下列何項作業，藉以確認 雲端平台的身份可被信任，避免裝置被偽冒進行中間人攻擊（man in the middle attack）？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Certificate Verify",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Certificate Pinning",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "Share Key Exchange",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "AES Encryption",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 20,
+      "question": "下列何者屬於RESTful API 用來查詢資料的方法？",
+      "options": [
+        {
+          "id": "A",
+          "text": "PUT",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "POST",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "QUERY",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "GET",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 21,
+      "question": "關於IEEE 802.15.6（無線人體區域網路）通訊標準的敘述，下列何者 錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "具有省電的特性",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "具有高傳輸率的特性",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "主要考量在人體上的應用",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "主要考量在人體內的應用",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 22,
+      "question": "無線區域網路（WLAN）採用下列何種媒介存取技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "RTS/CTS",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "CSMA/CA",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "CSMA/CD",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Xon/Xoff",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 23,
+      "question": "OCF（Open Connectivity Foundation）聯盟所採用的通訊堆疊，乃基 於CoAP 搭配JSON 的資料表現格式，來進行感測層中物與物之間的 資料交換，以下何者為CoAP 底層的傳輸協定？",
+      "options": [
+        {
+          "id": "A",
+          "text": "MQTT",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "AMQP",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "UDP/IP",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "RESTful",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 24,
+      "question": "下列何項「不」是Wi-Fi 6 所採用或支援的技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "正交分頻多工存取技術（OFDMA）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "多使用者多天線技術（MU-MIMO）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "目標喚醒機制（TWT）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "支援頻率平移技術使其操作於ITU-R 所訂的各種ISM 頻段",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 25,
+      "question": "高頻電磁波的發射功率以瓦特來做基本單位，行動電話基地台最高允 許的發射功率約為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 瓦左右",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "50 瓦左右",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "500 瓦左右",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "1000 瓦左右",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 26,
+      "question": "我國對3G CDMA 2000 MHz 頻段基地臺電磁波的安全標準建議值為 下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "每平方公分需低於0.45 毫瓦",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "每平方公分需低於0.9 毫瓦",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "每平方公分需低於1.2 毫瓦",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "每平方公分需低於1.0 毫瓦",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 27,
+      "question": "關於電磁波，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "電磁波是一種能量",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "能夠釋出電能的物體（例如手機），未必都會釋出電磁波",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "電磁波測量常用的基本單位是瓦特（watt）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "電磁場（分為電場和磁場）俗稱電磁波",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 28,
+      "question": "輻射傷害是指下列何種輻射所造成的？",
+      "options": [
+        {
+          "id": "A",
+          "text": "游離輻射",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "有熱效應的非游離輻射",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "無熱效應的非游離輻射",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "熱電能輻射",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 29,
+      "question": "跨年夜在台北101 大樓附近，常常看到各家電信業者的訊號車，請問 下列何者可能是電信業者需要派出訊號車的原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "跨年倒數的煙火造成的煙霧會嚴重影響手機訊號的傳遞",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "跨年演唱會的噪音過大，會影響手機訊號的傳遞",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "由於現場人潮眾多，原本附近的基地台無法負荷",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "並無特別意義，只是訊號車剛好經過",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 30,
+      "question": "下列何者「並非」物聯網雲端應用平台的組成元素？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Application Enablement",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Connectivity Enablement",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Security Enablement",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Sensing Enablement",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 31,
+      "question": "關於物聯網平台的敘述，下列何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "物聯網雲平台採用記憶體快取技術，取代傳統RDBS 成為大量儲存數 據的核心服務",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "物聯網雲平台採用Cooperation Service 例如Apache ZooKeeper 或 Consul 技術，作為與Device & Sensor 之間的通訊中介",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "物聯網雲平台採用Reverse Proxy 技術以達到負載平衡與線性拓展服務 主機的目的",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "物聯網雲平台採用OpenStack or Docker 技術以提供大數據平行分析所 需要的演算法",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 32,
+      "question": "關於應用層主流技術所提到的資料探勘的敘述，下列何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "關聯法則是資料探勘唯一有效率的方法",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "資料探勘是知識探索中，一個能有效率地找出資料模式、法則的程序",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "離群值並非是資料探勘需要注意的問題",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "資料探勘是不注重趨勢分析的",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 33,
+      "question": "Open Stack「不」包含下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "OpenStackCompute",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "OpenStackNetwork",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "OpenStackObjectStorage",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "OpenStackImageService",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 34,
+      "question": "關於容錯設計的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "其目的是容許軟硬體達到錯誤發生時，仍然可以正常持續運作",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "RAID 是屬於節點類型的容錯設計",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "涵蓋節點、應用程式、網路、硬碟四種狀況",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "雲端服務的高可用性，就是容錯重要的設計考量",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 35,
+      "question": "下列何者「不」是物聯網雲平台必須的架構設計考量？",
+      "options": [
+        {
+          "id": "A",
+          "text": "容納設備連線的數量",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "廣告推播的精準度",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "大量儲存數據的能力",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "快速交換訊息的技術",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 36,
+      "question": "下列何項「不」是物聯網的主要架構層級？",
+      "options": [
+        {
+          "id": "A",
+          "text": "應用層",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "資料鏈結層",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "感知層",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "網路層",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 37,
+      "question": "關於PaaS（Platform as a Service）雲端服務平台的敘述，下列何者錯 誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "適用於軟體開發者",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "提供雲端環境給使用者，讓使用者可在其環境中進行開發與管理程式",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "開發環境由雲端業者決定，在該平台上運行的應用類型沒有限制",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Heroku、Google App Engine 都屬於此類的應用",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 38,
+      "question": "除電腦與手機外，下列何者因其移動性與普遍性，使其漸成為物聯網 中具備資訊蒐集能力且應用在智慧城市中的最佳節點？",
+      "options": [
+        {
+          "id": "A",
+          "text": "動物",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "車輛",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "植物",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "製造機具",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 39,
+      "question": "物聯網興起將對既有的商業營運模式帶來重大衝擊，電子商務金流、 物流、資訊流之交互應用更為緊密。就物聯網於支付服務之應用發展 趨勢而言，下列敘述何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "個人化與情境化支付服務模式將應運而生",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "共享經濟模式將對支付服務有更大需求",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "目前應用經濟規模不大使得營運成本增加",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "技術應用發展多元且標準趨於統一",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 40,
+      "question": "下列何種行為「不」是物聯網的應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "對物流貨物使用RFID 進行配送管理",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "使用智慧手環做為遊樂園通行證，以管理人流與各項設施使用情況",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "使用手機5G 網路撥打視訊電話",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "於國道上使用eTag 以分析即時路況",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 41,
+      "question": "下列何項「不」是物聯網智慧家庭所提供的服務？",
+      "options": [
+        {
+          "id": "A",
+          "text": "屋頂加裝太陽能板，提供住家生活所需電力",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "使用紅外線感測，偵測是否有人入侵",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "由光感測器所偵測到的資訊，調整窗簾是否要拉起",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "下班前遠端開啟家中冷氣",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 42,
+      "question": "物聯網技術中，下列何者是透過衛星在太空中的位置反向計算物件在 地球表面的位置，進而實現智慧化識別、定位、追蹤、 監控和管 理？",
+      "options": [
+        {
+          "id": "A",
+          "text": "藍牙",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "iBeacon",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "GPS",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "影像辨識",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 43,
+      "question": "在現今的物聯網應用中，採用UHF RFID 技術已隨處可見，下列何者 「不」適用於UHF RFID 的應用情境？",
+      "options": [
+        {
+          "id": "A",
+          "text": "資產設備盤點",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "工廠及企業門禁管理，如識別證",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "商店對POS 機旁的商品進行結帳作業",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "高速公路採用ETC 對汽車進行里程收費作業",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 44,
+      "question": "關於行動裝置NFC 的敘述，下列何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "只要功率加大，NFC 也可以進行遠距讀取",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "NFC 與藍牙通訊相同，皆為IEEE 802.15.1 網路標準",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "NFC 相容於被動式RFID（13.56 MHz ISO/IEC 18000-3）",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "NFC 的特點是只能在手機使用，只需要簡單接觸就可以啟動服務",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 45,
+      "question": "目前市售的智慧型手機尚無法單獨使用下列何者辨識技術進行使用者 身份確認？",
+      "options": [
+        {
+          "id": "A",
+          "text": "聲音",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "臉部",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "指紋",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "圖案解鎖",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 46,
+      "question": "Gogoro 電動機車可以與使用者的手機App 連結並進行相關功能操 作，但「不」包括下列何種功能？",
+      "options": [
+        {
+          "id": "A",
+          "text": "檢查車輛狀態",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "發動車輛",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "開啟坐墊",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "設定電池充電模式",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 47,
+      "question": "關於物聯網導入行動服務或應用時的效益分析與風險評估敘述，下列 何項錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "需評估是否能以具備經濟、品質、效率的原則達成預設的目標效益",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "應關注實際提供的服務與操作，不須檢證服務與成效的各種關係",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "有助防範行動裝置的資安漏洞，以免駭客藉由網路入侵服務系統",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "將增加規劃設計人員的負荷",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 48,
+      "question": "EPC 標準中的LLRP（Low-Level Reader Protocol），為EPC/RFID 讀 取器與後端電腦間的通訊協定，下列何項「不」是LLRP 的功能？",
+      "options": [
+        {
+          "id": "A",
+          "text": "可以搜尋RFID 讀取器例如身份、天線數量等設定資訊",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "將命令從RFID 讀取器傳送至物件標籤、讀取標籤資料、寫入資料至 標籤、處理標籤使用者與標籤身份資料、並進行其他如刪除、鎖定等 功能",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "LLRP 應用RFID 空中通信協定的指令和計時的參數，提供更底層讀取 器運作的存取控制",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "LLRP 目前是針對EPCglobal C1G2 的空中協定，但其規格架構可以允 許未來其他的空中介面協定整合進來",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 49,
+      "question": "關於EPCglobal 的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "EPCglobal 最重要的概念是結構框架，包括軟體、硬體、資料標準以及 核心服務等",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "目標是希望經由EPC 碼之使用，達成有效供應鏈管理",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "架構共分為三層：網路層、實體層以及應用層",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "物件主要以EPC 碼為識別",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 50,
+      "question": "EPCglobal 提供的服務「不」包括下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "分配、維護和註冊EPC 管理者代碼",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "排解參與EPCglobal 成員之間的糾紛",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "對用戶進行EPC 技術和EPC 網路相關內容的教育和培訓",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "參與EPC 商業套用案例實施和EPCglobal 網路標準的制訂",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    }
+  ]
+}

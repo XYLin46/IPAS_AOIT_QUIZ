@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 2,
+  "title": "110-2-U2",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "歐洲電信標準協會（ETSI）將物聯網劃分為三層架構，分別為感知層、 網路層與應用層，下列何者「不」屬於網路層採用的技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bluetooth",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "ZigBee",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "IEEE 802.11x",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "GPS",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 2,
+      "question": "下列何者「不」是一般消費型手機所具備的通訊能力？",
+      "options": [
+        {
+          "id": "A",
+          "text": "ZigBee",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Wi-Fi",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Bluetooth",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "NFC",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 3,
+      "question": "關於Beacon 技術的應用，下列何者較「不」合適？",
+      "options": [
+        {
+          "id": "A",
+          "text": "店內導覽及選購",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "人流分析",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "車牌辨識",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "物品追蹤",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 4,
+      "question": "在互聯網的雲端運算架構中，利用所蒐集的各種大量數據進行處理及 分析後，依用戶需求提供相對應的服務，是屬於下列何種服務層級？",
+      "options": [
+        {
+          "id": "A",
+          "text": "軟體即服務（Software as a Service, SaaS）",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "平台即服務（Platform as a Service, PaaS）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "運算即服務（Computing as a Service, CaaS）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "基礎建設即服務（Infrastructure as a Service, IaaS）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 5,
+      "question": "關於LoRa，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "LoRaWAN 是一套在LoRa 技術環境中運行的LPWAN 協議標準",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "LoRa 主要在1GHz 以下（sub-1GHz）的授權頻段（licensed band） 運行",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "LoRa 最大特點是遠距離、低功耗、多節點、低成本",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "LoRaWAN 節點是為了低成本和長電池壽命而生，在頻段利用率 方面較欠缺",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 6,
+      "question": "組合電路常用的R、L、C 分別代表何種元件？",
+      "options": [
+        {
+          "id": "A",
+          "text": "R 為電阻、L 為電感、C 為電容",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "R 為電抗、L 為電感、C 為電容",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "R 為電阻、L 為電感、C 為電池",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "R 為電阻、L 為電抗、C 為電容",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 7,
+      "question": "下列何者「不」屬於感知層的技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "無線射頻技術",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "二維條碼技術",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "廣域網路",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "影像辨識技術",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 8,
+      "question": "想要分析無線系統中某一訊號波形中包含的不同頻率能量分佈情形， 請問應採用下列何種儀器？",
+      "options": [
+        {
+          "id": "A",
+          "text": "示波器",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "三用電表",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "頻譜分析儀",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "訊號產生器",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 9,
+      "question": "參考附圖，下列三種是目前物聯網開發常用之嵌入式系統，請問由左 至右名稱為何？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ardunio、Raspberry Pi、Micro:bit",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Raspberry Pi、Ardunio、Micro:bit",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Micro:bit、Raspberry Pi、Ardunio",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Raspberry Pi、Micro:bit、Ardunio",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 10,
+      "question": "關於感測器節點的設計概念，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "單一感測器故障不能造成系統整體功能失效",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "無線感測器網路可以機動調整感測節點的位置，更符合系統建置 彈性",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "應儘量降低感測器節點設置的成本",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "感測器的功耗越大，資料收集越完整",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 11,
+      "question": "關於近場通訊（Near Field Communication, NFC）技術，下列敘述何者 「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFC 的卡模擬模式（Card emulation mode）可應用於智慧門鎖",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "NFC 的讀卡機模式（Reader/Writer mode）可讀取電子標籤上的資 訊",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "NFC 的對等模式（P2P mode）可用於資料交換",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "NFC 的理想傳輸距離為1 公尺~5 公尺",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 12,
+      "question": "關於智慧電網，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "可利用資通訊技術收集供應端與使用端的電力供應狀況，以達到 節約能源、降低損耗、增強電網可靠性為目的",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "可改善現有輸電網路的效能，但無法整合新能源，如風能、太陽 能等",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "包含了一個智慧型電表基礎建設，用於記錄系統所有電能的流動",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "可將電網上的裝置由人工監測，進化到遙測或是遙控，再進化到 自動判斷調整控制",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 13,
+      "question": "美式賣場使用紅外線車位導引系統，透過燈光（綠燈/紅燈）指引車位 狀態，假若有個車位不管有沒有停車，其燈號都是綠燈，下列何者「不」 是可能的錯誤原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "車子太高了，停進去後無法感應有停車",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "近接感測器壞掉了，無法偵測是否有停車，所以一直呈現綠燈",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "控制器壞掉了，無法切換燈號",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "控制器壞掉了，接收不到近接開關的訊號",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 14,
+      "question": "貼在紙箱上的RFID 標籤讀不到，要如何從一堆同樣貼有標籤的箱子 中找出這個壞掉的標籤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "一個一個使用閘門讀取器，使用高功率發射能量來確定",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "一個一個使用閘門讀取器，使用低功率發射能量來確定",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "一個一個使用手持讀取器，使用高功率發射能量來確定",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "一個一個使用手持讀取器，使用低功率發射能量來確定",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 15,
+      "question": "若LED 亮度稍暗，則可以調整串接的電阻值，下列何者為此調整的主 要原理與目的？",
+      "options": [
+        {
+          "id": "A",
+          "text": "增加功耗",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "增強電流",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "降低電壓",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "降低阻抗",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 16,
+      "question": "某一低溫物流車隊之冷藏車無法將冷藏設備內的溫度即時傳回中控中 心，下列何者為較有可能的因素？",
+      "options": [
+        {
+          "id": "A",
+          "text": "無線感測設備置於封閉之金屬容器內",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "冷藏車車速太慢",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "無法接收GPS 訊號",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "天氣太熱",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 17,
+      "question": "請問含有一個小數點的七段顯示器包含幾顆LED？",
+      "options": [
+        {
+          "id": "A",
+          "text": "6",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "7",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "9",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 18,
+      "question": "新購入一台RFID 讀寫器想要針對手邊的RFID 卡片進行資料寫入作 業，卻發現無法運作，下列何者為較有可能的原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "所有的RFID 卡片都壞了",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "網路連結失效",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "RFID 讀寫器設定錯誤",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "RFID 讀寫器天線安裝錯誤",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 19,
+      "question": "新買的SD 卡裝在樹莓派上後開機，紅色LED 有亮但綠色LED 不亮， 請問下列何者是最「不」可能的原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "SD 卡廠牌不合",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "作業系統燒錄過程失敗",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "樹莓派主板損毀",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "安裝了非樹莓派官方作業系統",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 20,
+      "question": "關於常用於物聯網元件的無線技術中，在相同或類似的測試條件下， 下列何者能傳輸的距離最遠？",
+      "options": [
+        {
+          "id": "A",
+          "text": "BLE",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Wi-Fi",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "ZigBee",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "LoRa",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 21,
+      "question": "某供應商出貨前發現紙箱上的EPC 電子標籤無法被讀取，重新製作一 張相同的EPC 電子標籤後應如何處理？",
+      "options": [
+        {
+          "id": "A",
+          "text": "貼在紙箱的另一側",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "貼在故障的標籤旁邊",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "直接貼在原有故障的電子標籤上",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "移除紙箱上故障的標籤後，再貼上新標籤",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 22,
+      "question": "原來運作正常的紅外線系統，有一天使用者反應無法運作了，下列何 者為最可能的原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "環境溫度變化",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "環境濕度變化",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "發射端與接收端之間有東西阻擋",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "被Wi-Fi 設備干擾",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 23,
+      "question": "關於目的地網路的資訊，一般而言儲存於下列何種裝置之中？",
+      "options": [
+        {
+          "id": "A",
+          "text": "集線器（Hub）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "數據機（Modem）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "防火牆（Firewall）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "路由器（Router）",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 24,
+      "question": "下列何者負責制定加密標準？",
+      "options": [
+        {
+          "id": "A",
+          "text": "國家安全局（NSA）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "國家標準局（NIST）",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "國際電機電子工程師學會（IEEE）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "國際電信聯盟（ITU）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 25,
+      "question": "工廠將在戶外倉儲區域部署無線溫度感測網路並透過Wi-Fi 網路傳遞 資料，為避免Wi-Fi 網路遭到惡意攻擊，修改下列何者網路設定，可 以避免外部人員無需特殊工具即可輕易地辨識哪一個AP 是在做溫度 感測資料傳輸？",
+      "options": [
+        {
+          "id": "A",
+          "text": "SSID",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "TKIP",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "WPA2",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "CCMP",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 26,
+      "question": "利用比特幣加密演算法可以提供一套跨平台且具高安全性的物聯網裝 網裝 置身份辨識與資訊傳輸機制。下列何者為比特幣目前所採用的資料加 與資訊傳輸機制。下列何者為比特幣目前所採用的資料加 密方法？",
+      "options": [
+        {
+          "id": "A",
+          "text": "AES",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "DES",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "RC4",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "SHA-2",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 27,
+      "question": "關於物聯網資安議題，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "RFID 的安全威脅主要指在RFID 閱讀器和標籤進行通信時遭到的 攻擊，導致用戶隱私泄露",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "數據封包傳輸過程中採用固定的路由策略，可有效防止無線感測 節點位置被正確獲取",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "物聯網的隱私威脅大致分為：資料的安全威脅和位置的安全威脅",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "安全多方計算（Secure Multi-party Computation, SMC）用於解決一 組互不信任的參與方之間保護隱私的協同計算問題",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 28,
+      "question": "許多開源硬體文件託管網站使用創用CC（Creative Commons）授權條 款，供上傳者提供其設計文件，關於其中常見的CC BY-SA 授權，下 列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "BY 代表姓名標示，使用該文件必須註明出處",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "SA 代表相同方式分享，表示修改該份文件，後續提供出去時必須 採相同授權方式分享給他人",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "CC BY-SA 3.0 US 得被改以CC BY-SA 3.0 TW 的授權版本使用",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "CC BY-SA 意涵非商業性使用-相同方式分享",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 29,
+      "question": "Creative Commons所提供的公眾授權條款，台灣稱為「創用CC（Creative Commons）授權條款」，取其授權方式便於著作的「創」作與使「用」 之意，常使用來散布開源硬體的設計文件。關於創用CC 授權條款包 含四個授權元素，共組成六種授權條款，下列何者是預設必然會出現 的元素？",
+      "options": [
+        {
+          "id": "A",
+          "text": "非商業性（Non-Commercial）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "禁止改作（No Derivatives）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "相同方式分享（Share Alike）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "姓名標示（Attribution）",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 30,
+      "question": "參考附圖，下列何者「不」是附圖授權條款所代表的意義？",
+      "options": [
+        {
+          "id": "A",
+          "text": "姓名標示（Attribution）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "非商業性（Non-Commercial）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "禁止改作（No Derivatives）",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "相同方式分享（Share Alike）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 31,
+      "question": "物聯網底層硬體開發常用Arduino 板，搭配無線通訊使用ESP8266 Wi- Fi 通訊模組，下列何者為其授權使用的通訊規範？",
+      "options": [
+        {
+          "id": "A",
+          "text": "EtherCAT",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "IEEE 802.15.4",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "IEEE 802.11 a",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "IEEE 802.11 b/g/n",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 32,
+      "question": "關於Arduino，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arduino 使用開放原始碼的軟硬體平台",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Arduino 的電路設計圖也可從官方網站自行下載，依據自身之需求 進行修改但須要符合創用CC（Creative Commons）授權條款",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Arduino 內建RTC（時鐘的計時功能）",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Arduino Uno 有6 支類比輸入腳，標記為A0 到A5，每支接腳ADC 都可提供10-bit 的解析度",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 33,
+      "question": "關於數位訊號與類比訊號的差異，下列敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "類比訊號是一連串不連續的值，以0 或1 之二進位表示",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "類比訊號需經過ADC 晶片才能轉換為電腦能夠處理的數位訊號",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "類比訊號需經過PA 電路才能轉換為電腦能夠處理的數位訊號",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "類比訊號可轉換為數位訊號，但數位訊號無法轉為類比訊號",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 34,
+      "question": "關於I2C（Inter-Integrated Circuit）及SPI（Serial Peripheral Interface）， 下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "SPI 線路隨著裝置的增加，連接線路也要增加；I2C 僅透過兩條線 路即可",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "SPI 僅能有一個主設備；I2C 則可以有多個主設備",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "SPI 是半雙工；I2C 則是全雙工",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "SPI 無法確認從裝置是否有接收資料；I2C 則有雙向確認機制",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 35,
+      "question": "附圖為市面上常見的HC-06 藍牙模組，共有4 個引出接口，分別為 VCC、GND、TXD 與RXD。請問要如何與Arduino UNO 開發板上哪 些對應的I/O pin 連接？（提示：Arduino UNO pin 0 為RX，pin 1 為 TX）？",
+      "options": [
+        {
+          "id": "A",
+          "text": "5V、GND、0、1",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "GND、3.3V、0、1",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Vin、GND、1、0",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "5V、GND、1、0",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 36,
+      "question": "請問下列何者「不」是Raspberry Pi 4 和Arduino Uno 兩者皆有提供的 I/O 介面？",
+      "options": [
+        {
+          "id": "A",
+          "text": "SPI",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "PWM output",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "I2C",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Analog IN",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 37,
+      "question": "關於微控制器的應用方式，下列敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "微控制器應用於任何場景，均應該操作在最低時脈",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "按鈕的彈跳（Bounce）現象只能用硬體電路來解決",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "為節省零件，3.3V 操作的微控制器I/O 腳位可直接與其他5V 操 作的IC 對接",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "如果微控制器的供應電源未使用穩壓器（Voltage Regulator），會對 內部ADC 的參考電壓有影響",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 38,
+      "question": "關於微控制器上常見的通訊介面：I2C 及SPI，下列敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "I2C 可進行全雙工通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "I2C 的連接線需要四條（不包含GND）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "SPI 的連接線最多需要二條（不包含GND）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "I2C 與SPI 皆屬於主從式通訊（Master-Slave）",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 39,
+      "question": "物聯網中應用甚廣的藍牙（Bluetooth）通訊技術，在手機、平板及筆電 中常屬內建功能，但是Arduino UNO 及桌上型個人電腦（PC）並沒有 內建藍牙裝置。若Arduino UNO 及電腦要增加藍牙傳輸功能，則需外 接藍牙模組（BT adapter）。請問兩者常分別以下列何種方式連接藍牙 模組？",
+      "options": [
+        {
+          "id": "A",
+          "text": "皆透過非同步串列埠（UART）連接",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "皆透過USB 埠連接",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Arduino UNO 透過USB 埠連接，電腦透過UART 埠連接",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Arduino UNO 透過UART 埠連接，電腦透過USB 埠連接",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 40,
+      "question": "下列何者「不」是物聯網資料交換格式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "CSV",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "XML",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "EDI",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "JSON",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 41,
+      "question": "關於開放源碼軟體（Open Source Software），下列敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "有使用時間與功能的限制",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "他人不得自行散佈該軟體",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "不允許程式被修改",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "程式須包含原始碼（Source Code）",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 42,
+      "question": "關於Freeware 與Free Software，下列敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Freeware 指的是自由軟體",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Free Software 指的是免費軟體",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Free Software 依授權可以自由使用、散布、研究、修改",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Freeware 開放原始碼，並允許他人修改",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 43,
+      "question": "MQTT 或CoAP 皆為網路通訊應用層的資料傳輸協定，下列何者為 MQTT 與CoAP 協定共同的特點？",
+      "options": [
+        {
+          "id": "A",
+          "text": "皆屬於一對一通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "皆屬於多對多通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "封包標頭皆採用binary 格式",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "皆具有Publish/Subscribe 訊息傳送模式",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 44,
+      "question": "關於非關聯式資料庫（NoSQL），下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "採用ACID 架構",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "NoSQL 資料庫具有水平擴充能力",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "採用Key-Value 的方式作為查詢",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "適合儲存大量、文本型資料",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 45,
+      "question": "若是須將物聯網感測器所蒐集到的資料，顯示於各種載具上，需透過 應用程式介面（Application Programming Interface, API），以Web 連線 方式進行資料的傳送。目前Web API 的設計模式中，下列何者為主要 的資料交換格式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "DLL",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "XML",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "CSV",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "JSON",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 46,
+      "question": "為了使後端平台接收合作廠商之物聯網裝置所發送之資料，該裝置發 送JSON 格式的資料作為API 來提供介接。下列資料何者為正確的 JSON 格式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "<\"Name\": \"John\", \"Number\":<<\"id\": \"0\", \"num\": \"10\">,<\"id\": \"1\", \"num\": \"20\">>>",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "{\"Name\": \"John\", \"Number\":[{\"id\": \"0\", \"num\": \"10\"},{\"id\": \"1\", \"num\": \"20\"}]}",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "{\"Name\": \"John\", \"Number\"-> [{\"id\": \"0\", \"num\" -> \"10\"},{\"id\" -> \"1\", \"num\" -> \"20\"}]}",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "[\"Name\": \"John\", \"Number\":[[\"id\": \"0\", \"num\": \"10\"],[\"id\": \"1\", \"num\": \"20\"]]]",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 47,
+      "question": "下列何種雲端服務可提供行動裝置App 所需的頻寬資源、儲存空間、 CPU 運算等其他基礎的資源？",
+      "options": [
+        {
+          "id": "A",
+          "text": "軟體即服務（Software as a Service, SaaS）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "平台即服務（Platform as a Service, PaaS）",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "運算即服務（Computing as a Service, CaaS）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "基礎建設即服務（Infrastructure as a Service, IaaS）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 48,
+      "question": "關於GPL（General Public License）賦予程式使用者之權利，下列敘述 何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "以「copyleft」為依據",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "可以任意複製程式",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "可以任意修改與散佈程式",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "改作後的衍生作品不須以同等的授權方式釋出",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 49,
+      "question": "關於開源軟體，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "開源軟體即開放原始碼軟體",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "允許其他程式開發者進行軟體修改",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "開源軟體一定是免費軟體",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "程式開發者可以藉由觀摩開源軟體，學習開發特定軟體的技術",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 50,
+      "question": "關於共享軟體（Shareware），下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "使用者不可自行破解程式供自己與他人",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "有使用時間或功能限制",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "軟體版權與使用者共享",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "使用者不可更改軟體內容用於販售 改軟體內容用於販售",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    }
+  ]
+}

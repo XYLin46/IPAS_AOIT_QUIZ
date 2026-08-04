@@ -1,0 +1,1330 @@
+{
+  "schemaVersion": 2,
+  "title": "109-1-U2",
+  "questionCount": 49,
+  "questions": [
+    {
+      "id": 1,
+      "question": "物聯網架構分為三層，「不包含」下列何者？",
+      "options": [
+        {
+          "id": "A",
+          "text": "感知層",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "網路層",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "傳輸層",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "應用層",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 2,
+      "question": "關於物聯網感知層，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "可針對不同的情景、場域進行感知與監測",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "感測設備具有感測與通訊能力",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "大多數的感測設備具有分析與解讀資料能力",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "各感測器間不需要分享與交換資料",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 3,
+      "question": "物聯網架構分為三層，請問「健康管理」這個主題位於哪一層？",
+      "options": [
+        {
+          "id": "A",
+          "text": "感知層",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "網路層",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "應用層",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "傳輸層",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 4,
+      "question": "下列何者「不屬於」物聯網網路層的技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "非同步傳輸網路技術",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "無線感測器技術",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "無線通訊技術",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "高速網路技術",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 5,
+      "question": "關於控制單元，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "微控制器（Microcontroller Unit, MCU），是把微處理器、快閃記 憶體和主記憶體等包在同一個晶片裡，常用來做簡單的控制",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "微處理運算單元（Microprocessor Unit, MPU），可執行程式指 令、進行運算和邏輯處理",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "系統晶片（System on Chip, SoC），整合微處理器和特定功能硬 體",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "x86 CPU 架構過於複雜，不適合物聯網的應用",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 6,
+      "question": "下列何者是由國際電信標準制定組織3GPP 所支持，針對物聯網所 打造的電信級網路？",
+      "options": [
+        {
+          "id": "A",
+          "text": "NB-IoT",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "BLE",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "RFID",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "IEEE 802.11ac 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 7,
+      "question": "大型或複雜的物聯網系統往往是由各種不同的子系統組合而成，其 中包括不同的硬體、網路與作業系統等，需透過下列何者以調整子 系統間的差異？",
+      "options": [
+        {
+          "id": "A",
+          "text": "測試軟體",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "中介軟體",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "應用軟體",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "系統軟體",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 8,
+      "question": "關於Arduino 與Micro:bit，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arduino 內建僅包括輸出入腳位，而Micro:bit 還提供按鈕、藍 牙與LED 模組",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "皆能透過圖形化的程式編輯工具來開發",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "皆能使用杜邦線來連接外部設備",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Arduino 兼容3.3V 及5V 供應電壓，而Micro:bit 僅支援3V 供 應電壓",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 9,
+      "question": "下列何者屬於微控制器的週邊電路所負責之功能？甲、A/D 轉換； 乙、暫存資料；丙、各種I/O 埠；丁、運算處理；戊、定時器",
+      "options": [
+        {
+          "id": "A",
+          "text": "甲、乙、丙",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "甲、丙、戊",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "乙、丙、戊",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "甲、乙、丙、戊",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 10,
+      "question": "在物聯網中，Beacon 技術扮演著室內定位的角色，下列何者為該技 術應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "低頻傳輸採用電磁感應式，屬於近距離傳遞",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "超高頻傳輸採用電磁波反向傳播式，屬於遠距離傳遞",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "微波傳輸採用電磁感應式，屬於近距離傳遞",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "高頻傳輸採用電磁波反向傳播式，屬於遠距離傳遞",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 2
+    },
+    {
+      "id": 12,
+      "question": "關於樹莓派4.0B（Raspberry Pi 4.0B），下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "是一種單板電腦（Single Board Computer） 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "需要安裝作業系統",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "支援連接無線網路，但沒有乙太有線網路介面",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "支援HDMI 與立體聲輸出",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 13,
+      "question": "樹莓派（Raspberry Pi）的螢幕上偶爾出現黃色閃電符號（如附圖右 上角），請問代表什麼意思？",
+      "options": [
+        {
+          "id": "A",
+          "text": "CPU 進入全速運轉模式（Turbo Mode）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "目前CPU 過熱",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "網路頻寬使用率已達到設定上限",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "目前電力不足",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 14,
+      "question": "請問下列何者可能導致硬體主板燒毀？",
+      "options": [
+        {
+          "id": "A",
+          "text": "GPIO 輸出直接接到GPIO 輸入",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "GPIO 輸入直接接到GND",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "3.3V 輸出直接接到GPIO 輸入",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "5V 輸出直接接到GPIO 輸入",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 15,
+      "question": "當開啟通用非同步收發傳輸器（Universal Synchronous Asynchronous Receiver Transmitter, UART）來偵錯時，卻發現輸出亂碼，下列何者 為最「不可能」的解決方法？",
+      "options": [
+        {
+          "id": "A",
+          "text": "更換序列連接埠（Serial port）通訊程式",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "重新插上電源並重啟偵錯軟體",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "將RX 與TX 的接頭對調位置",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "變更鮑率，並確保兩端設定皆為相同數值",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 16,
+      "question": "進行Arduino 韌體上傳時發生錯誤，「不可能」是以下何種原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "沒有設定對開發板類型 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "與開發板的連線中斷",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "通用非同步收發傳輸器（Universal Synchronous Asynchronous Receiver Transmitter, UART）的鮑率設定錯誤",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "連接錯誤的序列連接埠（Serial port）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 17,
+      "question": "當發現物聯網裝置讀取感測器數據異常，下列何者是工程師會優先 採取的行動？",
+      "options": [
+        {
+          "id": "A",
+          "text": "燒錄上一個版本的韌體",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "將感測器進行替換",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "重新啟動該感測器再次讀取資料",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "透過三用電表檢查通電狀態",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 18,
+      "question": "某超市欲採用UHF RFID Tag 來取代傳統條碼，下列何者在通過讀取 器（Reader）讀取時比較容易發生讀取錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "袋裝泡麵",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "服飾吊牌",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "雜誌書籍",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "冷凍食品",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 19,
+      "question": "使用邏輯分析儀之同步模式，可針對感測網路節點的何種訊號特性 進行分析？",
+      "options": [
+        {
+          "id": "A",
+          "text": "時序分析",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "狀態分析",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "暫態信號分析",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "頻率計數分析",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 20,
+      "question": "在Arduino 整合開發環境（IDE）中，若無法找到對應的序列連接埠 （Serial port），下列何者是不可能發生的原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arduino USB 驅動程式沒有安裝好",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "用到壞的USB 連接線",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Serial port 正在被占用",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "作業系統尚未更新至最新版",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 21,
+      "question": "透過開發板連接感測器模組時，發現讀出的數值異常或無法讀取， 下列何者「無法」有效解決問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "將USB 電源改為AC 電源輸入",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "接到其它的開發板進行模組讀取測試",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "檢查讀取的接腳是否設定正確",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "檢查感測器模組的供電電壓與接地是否正確",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 22,
+      "question": "有一主板Master 已接上Sensor 且可以正常開機，每次執行Sensor 的 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果) 控制程式時主板都會重開機，進行除錯時，下列何者「不可能」發 生？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sensor 耗電過大",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Sensor 的輸出接到VCC",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Master 的VCC 接到GND",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Master 供電不足",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 23,
+      "question": "開放網路應用安全計畫（OWASP）對物聯網提出十大弱點風險之建 議，其中第三項定義為「Insecure Ecosystem Interfaces」。基於此明確 之項目名稱，下列何者較「不應」包含於該項目內？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insecure web interfaces",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Integrity and availability of information",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "Cloud or mobile interfaces",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Lack of input or output filtering",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 24,
+      "question": "針對RFID 讀取器位置、用戶資料和用戶位置等隱私問題，下列之 隱私保護機制中，何者具備計算量小、資源損耗低、虛擬隨機性和 單向不可逆之特性？",
+      "options": [
+        {
+          "id": "A",
+          "text": "雜湊函數（Hash function）法",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "雙重加密法",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "匿名ID 法",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "第三方認證法",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 25,
+      "question": "下列何者最容易被外部駭客植入惡意程式，透過遠端操控發動分散 式阻斷服務攻擊（DDoS attack），癱瘓指定的DNS 服務系統？",
+      "options": [
+        {
+          "id": "A",
+          "text": "監控與資料擷取系統（SCADA System）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "網路攝影機（IP Camera）",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "智慧電視（Smart TV）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "可編程邏輯控制器（PLC）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 26,
+      "question": "關於IoT 安全評等（IoT Security Rating, IoT SR）所提供物聯網產品 的資訊安全評估標準，其考量可分為七大類別，下列何者較「不可 能」被包含於IoT SR 評估項目中？",
+      "options": [
+        {
+          "id": "A",
+          "text": "安全軟體更新與系統管理",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "資料加密與隱私需求",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "安全通訊與文件流程需求",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "設備特性與用戶對象",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 27,
+      "question": "下列何種管理方式最容易產生潛在的物聯網資訊安全問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "定期重啟與重置物聯網設備以清除可能潛在之惡意程式 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "透過設備內建之存取控制功能或獨立防火牆來限制連線",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "將設備預設密碼修改為符合複雜性原則之密碼",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "為節省管理成本，所有感應器所蒐集到的資料都應彙整到某個 資料庫",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 28,
+      "question": "請問下列何者「不是」開源硬體？",
+      "options": [
+        {
+          "id": "A",
+          "text": "LinkIt",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Arduino",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "BeagleBone",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Cubieboard",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 29,
+      "question": "關於開源硬體，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "發佈開源硬體項目時，必須公佈所有的檔案及文件",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "開源硬體授權需要處理硬體設計文件及軟體操作文件",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "使用者遵守授權條款的內容，便可以自由商業化該條款提供的 授權範圍",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "開源硬體的本質是共享一個硬體的設計文件以方便他人進行修 改或製作硬體",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 30,
+      "question": "常見的創用CC 授權條款是一種公共著作權授權條款，用來散佈開 源硬體的設計文件，在創用CC 授權條款四個元素、使用中的六種 組合裡，下列何者是必然會出現的元素？",
+      "options": [
+        {
+          "id": "A",
+          "text": "相同方式分享（Share Alike）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "禁止改作（No Derivatives）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "姓名標示（Attribution）",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "非商業性（Non-Commercial）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 31,
+      "question": "關於開源硬體的授權，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "開源硬體授權允許改作或後續使用的授權範圍",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "即使是開源硬體，仍要經授權，才可在硬體中顯示其他公司商 標",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "開源硬體授權是較為廣泛的應用範圍，包含軟體授權、設計圖 授權",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "即使使用者遵守授權條款的內容，仍不可以自由散佈或修改原 始檔案",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 32,
+      "question": "下列何者「不是」開源硬體授權所要處理的問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "硬體設計文件",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "軟體操作文件",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "授權參考價格或預訂價格 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果)",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "允許改作或後續使用的授權範圍",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 33,
+      "question": "下列何者通訊協定「不可以」與多個裝置溝通？",
+      "options": [
+        {
+          "id": "A",
+          "text": "I2C（Inter-Integrated Circuit）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "RS-232",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "SPI（Serial Peripheral Interface）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "RS-485",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 34,
+      "question": "關於I2C（Inter-Integrated Circuit），下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "單只使用兩條傳輸線，分別是傳送資料與接收資料",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "透過I2C 位址（I2C Address）來決定將資料傳送至哪個裝置",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "I2C 是一種串列式的傳輸方式",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "I2C 裝置可以是主裝置（Master）也可是從裝置（Slave）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 35,
+      "question": "關於RS-485 與RS-232 之比較，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "RS-485 使用一對雙絞線，數據信號採用差動方式（differential） 傳輸",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "RS-232 鮑率（baud rate）越高，其傳輸速率就越大，但穩定的 傳輸距離就越短",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "RS-232 採取平衡傳輸方式而RS-485 採取不平衡傳輸",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "RS-232 因共模干擾等問題因此一般連線距離約在20 公尺內， 而RS-485 通訊距離可達1200 公尺",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 36,
+      "question": "開發智慧家庭的應用，如在辦公室透過手機遙控家裡的電器並讀取 客廳溫度。關於使用樹莓派（Raspberry Pi）與感測器來達成上述需 求的建置步驟，請問下列何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "在Raspberry Pi 上建立Web Server 網站",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "設定Web Server 固定的IP 網路位址",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "可用python 撰寫CGI 程式讓網頁伺服器呼叫使用",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "不需要Raspberry Pi root 管理者的權限即可以使用GPIO",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 37,
+      "question": "關於同步傳輸與非同步傳輸，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "I2C 採用非同步傳輸介面；SPI 採用同步傳輸介面，所以I2C 傳 輸速率較SPI 慢",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "同步傳輸需要傳送較少的控制位元，非同步傳輸需要傳送的控 制位元比較多",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "同步傳輸常運用在主機間的資料傳輸，非同步傳輸常用於主機 與周邊設備間的資料傳輸",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "同步傳輸的效率比非同步傳輸的效率高",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 38,
+      "question": "USB OTG（on-the-go）是在USB2.0 引入的一種模式，它允許原本 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果) 只能為週邊的裝置（Peripheral device）也能成為主機（Host），即成 為一個dual-role device，例如讓鍵盤接上手機使用。此Host 與 Peripheral device 角色協調互換是依據下列何種協定運作？",
+      "options": [
+        {
+          "id": "A",
+          "text": "接附偵測協定（Attach Detection Protocol）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "主機通令協議（Host Negotiation Protocol）",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "會談起始協定（Session Initiation Protocol）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "會談請求協定（Session Request Protocol）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 39,
+      "question": "SPI 介面的資料通訊以主從（master-slave）模式運作。下列敘述何者 「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "SPI 主從模式通常有一個主裝置和一個或多個從裝置",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "SPI 介面在點對點的通訊中，不需要進行定址操作，且可為全雙 工通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "SPI 是序列資料傳輸協定，資料是以位元的方式，根據從裝置送 出的鐘控信號（SCK）進行傳輸",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "SPI 介面沒有應答機制（acknowledgement）來確認資料接收與 否",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 40,
+      "question": "關於開源軟體的定義，下列何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "程式的可執行檔在散佈時，必須隨附完整原始碼或取得原始碼 的方法",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "當開源軟體與其他非開源軟體一起散佈時，其他軟體也要遵照 開源軟體授權",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "開源軟體可以使用在商業用途上",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "原始碼修改後必須以不同的版本號碼發佈，保障原始碼完整性",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 41,
+      "question": "下列何者必須開放原始碼？",
+      "options": [
+        {
+          "id": "A",
+          "text": "自由軟體（Free Software）",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "共享軟體（Shareware）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "免費軟體（Freeware）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "商業軟體（Commercial Software）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 42,
+      "question": "若開發了一個開源軟體，但不想讓之後的使用者將它改為閉源的方 式發行，應採用下列何種授權方式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apache 授權",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "BSD（Berkeley Software Distribution License）授權",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "GPL（GNU General Public License）授權",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "MIT（Massachusetts Institute of Technology）授權",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 43,
+      "question": "物聯網裝置的興起，帶動了雲端資料量的急遽成長，也因此NoSQL 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果) 成為一種雲端平台資料庫的選擇。下列何者「不屬於」NoSQL 資料 庫？",
+      "options": [
+        {
+          "id": "A",
+          "text": "MariaDB",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Redis",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "HBase",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "MongoDB",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 44,
+      "question": "如附圖所示，雲端運算共分為IaaS、PaaS、SaaS，請問若從以雲端 金字塔的架構，從上而下依序為何？",
+      "options": [
+        {
+          "id": "A",
+          "text": "IaaSPaaSSaaS",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "SaaSPaaSIaaS",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "PaaSSaaSIaaS",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "IaaSSaaSPaaS",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 45,
+      "question": "開放資料（Open Data）是物聯網雲端服務取得資料的來源之一。下 列何者「不屬於」開放資料的主要格式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "CSV",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "JSON",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "XML",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "DOC",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 46,
+      "question": "關於物聯網雲端平台，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "物聯網雲端平台可負責資料的蒐集、儲存、查詢與分析",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "物聯網雲端平台不負責監控數據變更通知",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "透過車聯網上面收集到的車輛大數據，可以為廠商帶來推廣加 值服務的效益",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "透過光度、溫度、濕度、風速、大氣壓力等感測器資訊，我們 可以更加了解環境變化",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 47,
+      "question": "關於雲端平台的系統設計與數據處理，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "雲端服務的數據資料種類眾多，不易處理",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "雲端服務的數據，有時會來自於開放資料 109 年度初級物聯網應用工程師能力鑑定試題 (含疑義題釋覆結果)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "雲端服務的系統設計需滿足集中化資料備份的服務",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "雲端服務的系統設計需要即時的部署，且可動態來進行調整擴 充所需的資源",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 48,
+      "question": "物聯網設備種類繁多，所產出的數據訊息格式和形式不一致。藉由 物聯網雲端服務營運管理平台，企業可以理解不同設備產出之不同 訊息格式及形式的數據，進而確保設備互通性。關於物聯網裝置和 雲端之間常見的訊息協議，下列何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTP",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "REST",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Zigbee",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "MQTT",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 49,
+      "question": "關於雲端物聯網平台，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "在更新管道方面，可透過OTA 進行更新",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "在資料儲存方面更容易擴充",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "在連線方面，可以通過限制進出雲端API 閘道的流量來減少受 攻擊的層面",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "在認證方面，所有的雲端平台皆提供單一登入（SSO）功能",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 50,
+      "question": "關於雲端平台設計時需考量的因素，下列敘述何者「不正確」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "雲端平台需提供認證授權機制以識別裝置的身份",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "雲端平台需主動接收由物聯網裝置被動上傳的監測數據",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "雲端平台藉由感測器收集使用者的數據，之後可使用雲端系統 分析",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "雲端平台採用可延伸擴展的資料儲存技術，以滿足大量儲存資 料的需求",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="物聯網應用工程師題庫練習">
+  <title>物聯網題庫練習</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>物聯網題庫練習</h1>
+      <p>資料只儲存在目前瀏覽器，不需註冊、不會上傳個人作答紀錄。</p>
+    </div>
+    <button id="reset-progress-btn" class="danger ghost">清除本機紀錄</button>
+  </header>
+
+  <main id="app" class="container" aria-live="polite"></main>
+
+  <dialog id="cookie-dialog">
+    <form method="dialog">
+      <h2>本機資料儲存說明</h2>
+      <p>
+        本網站使用 Cookie 記錄你是否看過此說明，並以瀏覽器 localStorage
+        保存「曾經做過、未曾做過、曾經錯過」等練習紀錄。
+        資料不會傳送到伺服器。
+      </p>
+      <div class="actions">
+        <button value="accept" id="cookie-accept-btn" class="primary">了解並繼續</button>
+      </div>
+    </form>
+  </dialog>
+
+  <noscript>本網站需要啟用 JavaScript 才能進行測驗。</noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

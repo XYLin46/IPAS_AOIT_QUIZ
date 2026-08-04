@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 2,
+  "title": "111-2-U2",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "關於物聯網應用層的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "遠端醫療屬於應用層",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "智慧交通屬於應用層",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "雲端運算是應用層的重要技術",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "定位技術是應用層的重要技術",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 2,
+      "question": "關於陀螺儀感測器運用的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "協助駕駛維持航行的方向",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "控制載具的平衡",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "常見於直升機、甩尾遙控車",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "測量物體的加速度",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 3,
+      "question": "關於藍牙技術的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "調變方式採用GFSK（Gaussian Frequency Shift Keying）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "工作頻率介於2.4 GHz ~ 2.485 GHz 間",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "傳輸採用FHSS（Frequency Hopping Spread Spectrum）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "應用距離最大為0.2m",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 4,
+      "question": "下列IEEE 802.11 的版本，何者傳輸速度最快？",
+      "options": [
+        {
+          "id": "A",
+          "text": "802.11a",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "802.11b",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "802.11ac",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "802.11g",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 5,
+      "question": "下列何項是選用RFID 讀取器最佳的考量？",
+      "options": [
+        {
+          "id": "A",
+          "text": "天線埠（Antenna port）越多越好",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "天線埠（Antenna port）越少越好",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "內崁整合式天線（Integrated antenna）最好",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "依照應用情境來選擇最好",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 6,
+      "question": "下列物聯網硬體裝置耗電量為最低者？",
+      "options": [
+        {
+          "id": "A",
+          "text": "LTE 通訊模組",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "3G 通訊模組",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Wi-Fi 模組",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Bluetooth 模組（BLE）",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 7,
+      "question": "在網路感測器的實作上，下列何項「不」是主要考量的因素？",
+      "options": [
+        {
+          "id": "A",
+          "text": "判斷網路是否中斷連線",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "監控電能量的消耗",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "即時傳送現場影像訊號",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "網路傳輸效能",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 8,
+      "question": "物聯網的感知層中，「不」包含下列何項技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "長距離無線通訊技術",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "RFID 技術",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "感測技術",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "辨識技術",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 9,
+      "question": "下列何項為智慧電網的主要裝置？",
+      "options": [
+        {
+          "id": "A",
+          "text": "感測網路",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "智慧手機",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "無線智慧型插座",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "智慧電錶",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 10,
+      "question": "若想實現智慧型路燈，藉由偵測日夜以及是否有人車經過，以決定是 否開啟照明，採用下列何種感測器的組合較為合適？",
+      "options": [
+        {
+          "id": "A",
+          "text": "光感應器+紅外線感測器",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "陀螺儀+電子羅盤",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "光感應器+加速度計",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "超音波+紅外線感測器",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 11,
+      "question": "在物聯網中，Beacon 技術扮演著室內定位的角色，下列何者為該技 術應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "商品經過結帳台時，自動幫使用者結算金額",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "旅客經過攤位時，手機自動顯示攤位簡介及打折商品",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "將商品移入或移出倉庫時，可自動顯示商品的庫存量",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "有人進入或離開房間時，可自動開啟或關閉燈光及空調設備",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 12,
+      "question": "Qi 無線充電設備的工作原理與下列何項敘述「無關」？",
+      "options": [
+        {
+          "id": "A",
+          "text": "採用電磁感應方式",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "與法拉第定律有關",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "與高頻被動式RFID 工作原理相同",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "屬於後向散射偶合（Backscatter Coupling）方式",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 13,
+      "question": "欲以三用電表判斷感測器電路是否為短路或開路，應使用下列何項檔 位較為適合？",
+      "options": [
+        {
+          "id": "A",
+          "text": "直流電壓檔",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "交流電壓檔",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "歐姆檔",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "直流電流檔",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 14,
+      "question": "下列何項「不」屬於物聯網的應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "家裡電燈透過手機設定，開啟或關閉電燈",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "醫生在醫院電腦中即時看到病患的生理資料",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "當車輛靠近車庫時，使用遙控器開啟鐵捲門",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "電冰箱會在牛奶快喝完的時候自動幫忙訂牛奶",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 15,
+      "question": "附圖是透過Arduino 連接LED 的簡易電路，請問下列敘述何者正 確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "輸入的電流是3.3 安培",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "使用220K 歐姆的電阻",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "燈亮的條件是按下按鈕時",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "使用數位接腳開關燈",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 16,
+      "question": "關於無線射頻辨識技術（Radio Frequency Identification, RFID）系統 使用的頻率，下列敘述何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "低頻（125KHz – 135KHz）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "高頻（13.56MHz）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "超低頻（9KHz 以下）",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "微波（2.45GHz）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 17,
+      "question": "關於智慧交通的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "一般民眾可透過智慧型手機或電腦進入平台，以得知最新的道路訊息",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "運用物聯網的概念，結合路聯網和車聯網兩種系統",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "車輛區間測速不屬於智慧交通的一環",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "交通資訊透過物聯網把感應到的訊息傳送到雲端平台",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 18,
+      "question": "進行物聯網開發板韌體編譯時，需確認的項目「不」包含下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "安裝正確的SDK",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "開發板電量充足",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "撰寫能正確運行的程式碼",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "電腦有連結網路",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 19,
+      "question": "欲了解感測網路節點的訊號特性，需搭配邏輯分析儀進行分析，下列 何者「不」屬於邏輯分析儀的主要功能？",
+      "options": [
+        {
+          "id": "A",
+          "text": "邏輯訊息擷取",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "數據儲存",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "觸發（Trigger）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "雜訊消除",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 20,
+      "question": "透過開發版連接感測器模組時，發現讀出的數值異常或無法讀取，下 列何者「無法」有效解決問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "將USB 電源改為AC 電源輸入",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "接到其它的開發版進行模組讀取測試",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "檢查讀取的接腳是否設定正確",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "檢查感測器模組的供電電壓與接地是否正確",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 21,
+      "question": "符合ZigBee application profile 智慧家庭規範的設備，在家中的瓦斯偵 測設備在偵測瓦斯洩漏後，會通知蜂鳴器產生警告聲。請問，若突然 有一天，瓦斯洩漏，但警報沒有響，下面何項「不」是可能的原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "瓦斯偵測器壞了",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "瓦斯偵測器到蜂鳴器中間的ZigBee 網路斷了",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "蜂鳴器壞了",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "智慧家庭閘道器壞了",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 22,
+      "question": "附圖所示的程式碼，執行時LED 燈不亮，可能的原因為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "OUTPUT 沒有被定義",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "HIGH 沒有被定義",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "digitalWrite()放錯位置",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "沒有INPUT",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 23,
+      "question": "當發現物聯網裝置讀取感測器數據異常，下列何者是工程師會優先採 取的行動？",
+      "options": [
+        {
+          "id": "A",
+          "text": "燒錄上一個版本的韌體",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "將感測器進行替換",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "檢查感測器原始輸入數值",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "透過三用電表檢查通電狀態",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 24,
+      "question": "客戶的倉庫面積增加，但不想增購被動式超高頻（UHF）讀取器與天 線，若只增加讀取器的輸出功率，將會產生下列何種變化？",
+      "options": [
+        {
+          "id": "A",
+          "text": "涵蓋區域變大，天線讀取的電波訊號缺漏不變",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "涵蓋區域變小，天線讀取的電波訊號缺漏變大",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "涵蓋區域變小，天線讀取的電波訊號缺漏與位置不變",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "涵蓋區域變大，天線讀取的電波訊號缺漏與位置改變",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 25,
+      "question": "客戶反應所購買的光學感測式心率錶無法正常量測心率，但他的家人 配戴都沒問題，有可能是下列何項原因造成？",
+      "options": [
+        {
+          "id": "A",
+          "text": "客戶手腕皮膚刺青造成心率錶LED 燈量測失準",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "心率錶配戴太緊",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "心率錶佩戴在右手",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "擅自更換心率錶錶帶",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 2
+    },
+    {
+      "id": 26,
+      "question": "建置智慧型居家照明，欲確認所規劃的室內照明光源是否足夠，通常 會使用照度計進行實地測試，下列何者為照度計之單位？",
+      "options": [
+        {
+          "id": "A",
+          "text": "勒克斯（Lux）",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "流明（Lumen）",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "燭光/平方公尺（cd/m2）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "瓦特（Watt）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 27,
+      "question": "關於偵測按鈕是否按下，附圖的電路（紅線5V，黑線GND，藍線為 GPIO，電阻值為100 歐姆）接法有許多地方都會導致樹莓派燒毀， 請問哪一項敘述「不」能解決燒毀問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "增加電阻值到50K 歐姆",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "將紅線從5V 改接3.3V",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "紅線必須改接在按鈕右下角的接點",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "黑線與藍線必需對調",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 28,
+      "question": "關於物聯網發展面臨的資訊安全挑戰，下列何者「不」是此議題之主 要核心問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "通訊可信度低、設備可能移動以致連接可能時斷時續，增加了資訊安 全系統設計和實施的複雜度",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "物聯網統一資料標準制定停滯",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "設備大小不一、儲存和處理能力不一致導致安全的資訊傳遞和處理難 以統一",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "設備可能無人值守、易遺失等因素，將增加資訊安全設計之風險",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 29,
+      "question": "有關行動裝置上的安全議題，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "常見的安全問題有權限管理不當、缺乏加密保護、認證授權被繞過、 邏輯漏洞等",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "不要隨便下載APP，以免惡意程式（如：蠕蟲、木馬、間諜程式等）進 駐",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "應用程式因為都在行動裝置上執行，駭客將無法透過分析應用程式找 出安全漏洞進行攻擊",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "僅安裝來自可信任來源之軟體，並定期更新修補程式",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 30,
+      "question": "若是商品上的RFID 標籤在未經同意的情況下被任意讀取，與消費者 會員購買記錄相互關連，因而延伸出相關的消費者隱私議題。請問下 列何者「不」是消費者會面臨到的隱私問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "消費者的身分",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "消費者的購物喜好",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "消費者購買商品的製造商",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "消費者的家庭成員情況",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 31,
+      "question": "物聯網主要是在感知層進行資料蒐集後，透過網路層傳輸資料到雲端 儲存。在網路層需要考慮下列何種因素，以防止資料在網路傳輸時， 被駭客竊取？",
+      "options": [
+        {
+          "id": "A",
+          "text": "網路頻寬",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "有線網路或無線網路",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "資料是否加密",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "資料的傳輸格式",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 32,
+      "question": "下列何種機制可基於IP 位址來決定是否開啟或關閉網路資源？",
+      "options": [
+        {
+          "id": "A",
+          "text": "網路目錄服務（NDS）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "存取控制清單（ACL）",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "阻擋連結埠號（Port Blocking）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "間隔（Partitioning）",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 33,
+      "question": "若使用UART（Universal Asynchronous Receiver/Transmitter）進行雙 向資料傳輸時，傳送端與接收端之間共需幾條連接線（不包含 GND）？",
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "2",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "4",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 34,
+      "question": "微控制器上，脈波寬度調變（Pulse Width Modulation, PWM）的運作 與以下何種硬體模組最為相關？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Timer",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Serial",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Analog I/O",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Digital I/O",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 35,
+      "question": "請問若要利用微控制器讓蜂鳴器（Buzzer）發出頻率為200Hz 的聲 音，而使用duty cycle 為50%的方波的數位信號驅動，其高電位的持 續時間應該為下列何項？（公式：freqency=1/Duration）",
+      "options": [
+        {
+          "id": "A",
+          "text": "1ms",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "2.5ms",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "5ms",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "10ms",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 36,
+      "question": "下列何者通訊協定「不」可以與多個裝置溝通？",
+      "options": [
+        {
+          "id": "A",
+          "text": "（Inter-Integrated Circuit）",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "RS-232",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "SPI（Serial Peripheral Interface）",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "RS-485",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 37,
+      "question": "有關近場通訊（NFC）介面技術的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "可採用讀卡機模式/卡模擬模式/點對點模式",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "用於卡模擬模式不需外接電源",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "屬於短距離無線通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "採用微波頻段",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 38,
+      "question": "關於單機版電腦控制步進馬達的敘述，下列何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "步進馬達都會附上驅動器（如ULN2003A），不過驅動器並非必要",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "要讓步進馬達轉快點的方法是提升電壓",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "必須要根據步進馬達所要求的脈衝訊號來驅動",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "步進馬達較一般直流馬達角度解析度不佳",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 39,
+      "question": "使用非同步序列通訊RS-232 協定時，在通訊軟體設定中，Data bits/Parity/Stop bit 是連線雙方常用的定義符號。若設定值為 「8/N/1」，代表雙方約定為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "代表資料字符為8 位元，沒有同位檢查碼，1 個停止位元",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "代表開始加資料字符共為8 位元，沒有同位檢查碼，1 個開始位元",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "代表資料字符為8 位元，採用正同位元檢查碼，1 個開始位元",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "代表開始加資料字符共為8 位元，採用負同位元檢查碼，1 個停止位 元",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 40,
+      "question": "關於 （Inter-Integrated Circuit）與SPI（Serial Peripheral Interface）的比較，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "為半雙工（half-duplex）傳輸，而SPI 可執行全雙工（full duplex）傳輸",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "和SPI 通訊方式皆採取主從式運作",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "介面有兩條線路（SDA 和SCL）傳遞訊息，而SPI 則有四條線路",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "為非同步序列通訊，而SPI 為同步序列通訊",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 41,
+      "question": "物聯網雲平台要負責蒐集百萬數量級的物聯網裝置監控資料，當雲平 台主機群的效能不足時，需要透過以下何種策略來擴展物聯網裝置資 料儲存與處理的能量？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Shipping",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Sharding",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "Sharing",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Delivering",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 42,
+      "question": "物聯網雲平台能夠保存裝置的監測數據，但為了避免個資洩漏的問 題，通常會透過以下何種方式加以避免？",
+      "options": [
+        {
+          "id": "A",
+          "text": "去文件化",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "去識別化",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "去交錯化",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "去儲存化",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 43,
+      "question": "關於NoSQL 資料庫的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "NoSQL 不僅使用SQL 為查詢語言",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "NoSQL 具備水平擴充能力",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "NoSQL 沒有交易（Transaction）的設計，故無法保持資料一致性",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "NoSQL 資料庫可儲存半結構或非結構資料",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 44,
+      "question": "物聯網系統的價值是建構於「可將收集到龐大資料做進一步分析」。 下列何者「不」是資料分析可達成的結果？",
+      "options": [
+        {
+          "id": "A",
+          "text": "從趨勢資料中可探索未來潛在商機",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "透過即時資料可偵測出設備異常狀態",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "分析資料可改善員工服務態度",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "從資料中可找出客戶的實際需求",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 45,
+      "question": "車載診斷系統OBD（On-Board Diagnostics）主要「不」是收集下列 何種資訊？",
+      "options": [
+        {
+          "id": "A",
+          "text": "車輛狀況",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "使用者使用車輛的行為",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "使用者停車的位置",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "使用者有沒有危險駕駛",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 46,
+      "question": "關於Spark 的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "可在多種平台執行",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "與Hadoop 相容",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "在機器記憶體中執行程式",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "比Hadoop Map Reduce 慢",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 47,
+      "question": "下列何種設計方式最適合自動得知感測器電力狀態？",
+      "options": [
+        {
+          "id": "A",
+          "text": "連同電量一併與感測資料回傳至後端分析",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "使用MQTT 協定",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "觀察感測器表面的電力閃爍燈號",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "觀察感測器感測資料的數值變化",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 48,
+      "question": "NoSQL 的主流資料庫，「不」包含下列何者？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Key-Value 資料庫",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "文件資料庫",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "圖形資料庫",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "關聯式資料庫",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 49,
+      "question": "小明為了打造一個智慧旅遊系統myTour，跟中華電信Hicloud 租用一 個雲端空間，並且採用Google App Engine - Map 系統。下列關於各項 服務的敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "myTour 是IaaS，Hicloud 是PaaS，Google App Engine 是SaaS",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "myTour 是SaaS，Hicloud 是PaaS，Google App Engine 是IaaS",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "myTour 是SaaS，Hicloud 是IaaS，Google App Engine 是PaaS",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "myTour 是PaaS，Hicloud 是IaaS，Google App Engine 是SaaS",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 50,
+      "question": "下列何項物聯網應用是基於「邊緣運算」架構？",
+      "options": [
+        {
+          "id": "A",
+          "text": "溫度感測器可感測小數點後3 位，感測更加精準",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "自動駕駛車輛偵測周圍的狀態在靠近感測端進行運算",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "遠距醫療到為老年人提供智慧照護，透過5G 網路反應更快速",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "無人商店中商品讀取RFID 資料得到商品價格",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    }
+  ]
+}
