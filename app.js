@@ -11,6 +11,7 @@ const cookieAcceptButton = document.querySelector("#cookie-accept-btn");
 let manifest = [];
 let currentQuiz = null;
 
+const questionFileCache = new Map();
 /* -------------------------------------------------------
  * Cookie 與 localStorage
  * ----------------------------------------------------- */
@@ -55,6 +56,7 @@ function defaultProgress() {
   return {
     version: APP_VERSION,
     questions: {},
+    practiceDates: {},
   };
 }
 
@@ -76,13 +78,27 @@ function loadProgress() {
       return defaultProgress();
     }
 
+    // 相容舊版本紀錄
+    if (!value.practiceDates || typeof value.practiceDates !== "object") {
+      value.practiceDates = {};
+    }
+
+    for (const item of Object.values(value.questions)) {
+      if (typeof item.everCorrect !== "boolean") {
+        item.everCorrect = item.lastCorrect === true;
+      }
+
+      if (typeof item.correctCount !== "number") {
+        item.correctCount = item.lastCorrect === true ? 1 : 0;
+      }
+    }
+
     return value;
   } catch (error) {
     console.warn("讀取本機作答紀錄失敗：", error);
     return defaultProgress();
   }
 }
-
 function saveProgress(progress) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
@@ -103,7 +119,9 @@ function updateProgress(sourceFile, question, isCorrect) {
   const previous = progress.questions[key] ?? {
     attempted: false,
     attempts: 0,
+    correctCount: 0,
     wrongCount: 0,
+    everCorrect: false,
     lastCorrect: null,
   };
 
@@ -112,7 +130,10 @@ function updateProgress(sourceFile, question, isCorrect) {
   previous.lastCorrect = isCorrect;
   previous.lastAnsweredAt = new Date().toISOString();
 
-  if (!isCorrect) {
+  if (isCorrect) {
+    previous.correctCount += 1;
+    previous.everCorrect = true;
+  } else {
     previous.wrongCount += 1;
   }
 
@@ -226,72 +247,208 @@ function progressStats() {
  * 首頁
  * ----------------------------------------------------- */
 
-function renderHome() {
-  const stats = progressStats();
-
+async function renderHome() {
   app.innerHTML = `
     <section class="panel">
-      <h2>選擇練習模式</h2>
-
-      <div class="stats">
-        <div class="stat">
-          <strong>${stats.attempted}</strong>
-          <span>曾經做過</span>
-        </div>
-
-        <div class="stat">
-          <strong>${stats.wrong}</strong>
-          <span>目前錯題</span>
-        </div>
-
-        <div class="stat">
-          <strong>${stats.totalAttempts}</strong>
-          <span>累積作答次數</span>
-        </div>
-      </div>
-
-      <div class="grid">
-        <article class="card mode-card">
-          <h2>年度測驗</h2>
-          <p>
-            選擇 U1 或 U2，再指定年度與場次。
-            題目和選項都會隨機排列。
-          </p>
-          <button class="primary" data-mode="year">
-            開始設定
-          </button>
-        </article>
-
-        <article class="card mode-card">
-          <h2>隨機測驗</h2>
-          <p>
-            從指定科目的全部年度題庫中，
-            隨機抽選最多 50 題。
-          </p>
-          <button class="primary" data-mode="random">
-            開始設定
-          </button>
-        </article>
-
-        <article class="card mode-card">
-          <h2>錯題測驗</h2>
-          <p>
-            從目前瀏覽器曾經答錯的題目中，
-            隨機抽選最多 20 題。
-          </p>
-          <button class="primary" data-mode="wrong">
-            開始設定
-          </button>
-        </article>
-      </div>
+      <p>正在整理題庫進度……</p>
     </section>
   `;
 
-  app.querySelectorAll("[data-mode]").forEach((button) => {
-    button.addEventListener("click", () => {
-      renderModeSetup(button.dataset.mode);
+  try {
+    const [u1, u2] = await Promise.all([
+      calculateSubjectStats("U1"),
+      calculateSubjectStats("U2"),
+    ]);
+
+    const progress = loadProgress();
+
+    const allProgressItems = Object.values(
+      progress.questions,
+    );
+
+    const totalAttempts = allProgressItems.reduce(
+      (sum, item) => sum + (item.attempts ?? 0),
+      0,
+    );
+
+    const wrongCount = allProgressItems.filter(
+      (item) => (item.wrongCount ?? 0) > 0,
+    ).length;
+
+    app.innerHTML = `
+      <section class="panel">
+        <h2>學習進度</h2>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>
+              ${u1.attempted + u2.attempted}
+            </strong>
+            <span>曾經做過</span>
+          </div>
+
+          <div class="stat">
+            <strong>${wrongCount}</strong>
+            <span>目前錯題</span>
+          </div>
+
+          <div class="stat">
+            <strong>${totalAttempts}</strong>
+            <span>累積作答次數</span>
+          </div>
+        </div>
+
+        <section class="dashboard-section">
+          <h2>題庫完成度</h2>
+
+          <div class="subject-progress-grid">
+            ${renderSubjectProgressCard(
+              "物聯網基礎架構概論（U1）",
+              u1,
+              "completion",
+            )}
+
+            ${renderSubjectProgressCard(
+              "物聯網系統與應用（U2）",
+              u2,
+              "completion",
+            )}
+          </div>
+        </section>
+
+        <section class="dashboard-section">
+          <h2>答對題目覆蓋率</h2>
+
+          <div class="subject-progress-grid">
+            ${renderSubjectProgressCard(
+              "物聯網基礎架構概論（U1）",
+              u1,
+              "correct",
+            )}
+
+            ${renderSubjectProgressCard(
+              "物聯網系統與應用（U2）",
+              u2,
+              "correct",
+            )}
+          </div>
+        </section>
+
+        ${renderPracticeCalendar()}
+
+        <section class="dashboard-section">
+          <h2>選擇練習模式</h2>
+
+          <div class="grid">
+            <article class="card mode-card">
+              <h2>年度測驗</h2>
+              <p>
+                選擇 U1 或 U2，再指定年度與場次。
+                題目與選項都會隨機排列。
+              </p>
+
+              <button class="primary" data-mode="year">
+                開始設定
+              </button>
+            </article>
+
+            <article class="card mode-card">
+              <h2>隨機測驗</h2>
+              <p>
+                優先抽選未做過的題目；
+                未做題不足時，再由已做題補足 50 題。
+              </p>
+
+              <button class="primary" data-mode="random">
+                開始設定
+              </button>
+            </article>
+
+            <article class="card mode-card">
+              <h2>錯題測驗</h2>
+              <p>
+                從目前瀏覽器曾經答錯的題目中，
+                隨機抽選最多 20 題。
+              </p>
+
+              <button class="primary" data-mode="wrong">
+                開始設定
+              </button>
+            </article>
+          </div>
+        </section>
+      </section>
+    `;
+
+    app.querySelectorAll("[data-mode]").forEach((button) => {
+      button.addEventListener("click", () => {
+        renderModeSetup(button.dataset.mode);
+      });
     });
-  });
+  } catch (error) {
+    console.error(error);
+
+    app.innerHTML = `
+      <section class="panel">
+        <h2 class="error">無法計算學習進度</h2>
+        <p>${escapeHtml(error.message)}</p>
+
+        <div class="actions">
+          <button class="secondary" id="reload-home">
+            重新載入
+          </button>
+        </div>
+      </section>
+    `;
+
+    app
+      .querySelector("#reload-home")
+      .addEventListener("click", renderHome);
+  }
+}
+
+function renderSubjectProgressCard(title, stats, mode) {
+  const isCompletion = mode === "completion";
+
+  const rate = isCompletion
+    ? stats.completionRate
+    : stats.correctCoverageRate;
+
+  const numerator = isCompletion
+    ? stats.attempted
+    : stats.everCorrect;
+
+  const label = isCompletion
+    ? "完成度"
+    : "答對覆蓋率";
+
+  return `
+    <article class="card subject-progress-card">
+      <div>
+        <h3>${escapeHtml(title)}</h3>
+
+        <p>
+          ${label}：
+          <strong>${rate}%</strong>
+          (${numerator}/${stats.total})
+        </p>
+
+        ${
+          !isCompletion
+            ? `
+              <p class="note">
+                已作答正確率：
+                ${stats.attemptedAccuracy}%
+                (${stats.everCorrect}/${stats.attempted})
+              </p>
+            `
+            : ""
+        }
+      </div>
+
+      ${progressPie(rate, `${rate}%`)}
+    </article>
+  `;
 }
 
 function subjectSelectHtml() {
@@ -498,6 +655,13 @@ function renderWrongSetup() {
  * ----------------------------------------------------- */
 
 async function loadQuestionFile(file) {
+  if (questionFileCache.has(file)) {
+    return questionFileCache.get(file).map((question) => ({
+      ...question,
+      options: question.options.map((option) => ({ ...option })),
+    }));
+  }
+
   const url = `./questions_json/${encodeURIComponent(file)}`;
   const data = await fetchJson(url);
 
@@ -505,12 +669,19 @@ async function loadQuestionFile(file) {
     throw new Error(`${file} 缺少 questions 陣列`);
   }
 
-  return data.questions.map((question) => ({
+  const questions = data.questions.map((question) => ({
     ...question,
     sourceFile: file,
     options: Array.isArray(question.options)
       ? question.options.map((option) => ({ ...option }))
       : [],
+  }));
+
+  questionFileCache.set(file, questions);
+
+  return questions.map((question) => ({
+    ...question,
+    options: question.options.map((option) => ({ ...option })),
   }));
 }
 
@@ -559,10 +730,39 @@ async function startRandomQuiz(subject) {
       throw new Error(`${subject} 題庫沒有題目`);
     }
 
-    const selected = shuffle(pool).slice(
-      0,
-      Math.min(50, pool.length),
-    );
+    const progress = loadProgress();
+
+    const unattempted = [];
+    const attempted = [];
+
+    for (const question of pool) {
+      const key = questionKey(
+        question.sourceFile,
+        question.id,
+      );
+
+      const record = progress.questions[key];
+
+      if (record?.attempted) {
+        attempted.push(question);
+      } else {
+        unattempted.push(question);
+      }
+    }
+
+    const targetCount = Math.min(50, pool.length);
+
+    // 優先未做題目
+    const selected = shuffle(unattempted).slice(0, targetCount);
+
+    // 未做題目不足時，再由已做題補足
+    if (selected.length < targetCount) {
+      const remainingCount = targetCount - selected.length;
+
+      selected.push(
+        ...shuffle(attempted).slice(0, remainingCount),
+      );
+    }
 
     currentQuiz = {
       mode: "random",
@@ -817,6 +1017,7 @@ function renderQuestion() {
 
     quiz.currentIndex += 1;
     renderQuestion();
+    recordDailyPractice();
   });
 }
 
@@ -840,8 +1041,33 @@ function finishQuiz() {
     };
   });
 
+// 完成一次測驗後，留下當日簽到紀錄
+  recordDailyPractice();
+
   currentQuiz.results = results;
   renderReview();
+}
+
+/* -------------------------------------------------------
+ * 簽到功能
+ * ----------------------------------------------------- */
+
+function getLocalDateKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+}
+
+function recordDailyPractice() {
+  const progress = loadProgress();
+  const dateKey = getLocalDateKey();
+
+  progress.practiceDates[dateKey] =
+    (progress.practiceDates[dateKey] ?? 0) + 1;
+
+  saveProgress(progress);
 }
 
 /* -------------------------------------------------------
@@ -1082,6 +1308,215 @@ if (resetButton) {
     renderHome();
   });
 }
+
+/* -------------------------------------------------------
+ * 新增統計功能
+ * ----------------------------------------------------- */
+
+async function calculateSubjectStats(subject) {
+  const files = availableFiles(subject);
+
+  if (!files.length) {
+    return {
+      subject,
+      total: 0,
+      attempted: 0,
+      everCorrect: 0,
+      wrong: 0,
+      completionRate: 0,
+      correctCoverageRate: 0,
+      attemptedAccuracy: 0,
+    };
+  }
+
+  const groups = await Promise.all(
+    files.map((item) => loadQuestionFile(item.file)),
+  );
+
+  const questions = groups.flat();
+  const progress = loadProgress();
+
+  let attempted = 0;
+  let everCorrect = 0;
+  let wrong = 0;
+
+  for (const question of questions) {
+    const key = questionKey(
+      question.sourceFile,
+      question.id,
+    );
+
+    const record = progress.questions[key];
+
+    if (record?.attempted) {
+      attempted += 1;
+    }
+
+    if (record?.everCorrect) {
+      everCorrect += 1;
+    }
+
+    if ((record?.wrongCount ?? 0) > 0) {
+      wrong += 1;
+    }
+  }
+
+  const total = questions.length;
+
+  return {
+    subject,
+    total,
+    attempted,
+    everCorrect,
+    wrong,
+
+    completionRate:
+      total > 0
+        ? Math.round((attempted / total) * 100)
+        : 0,
+
+    correctCoverageRate:
+      total > 0
+        ? Math.round((everCorrect / total) * 100)
+        : 0,
+
+    attemptedAccuracy:
+      attempted > 0
+        ? Math.round((everCorrect / attempted) * 100)
+        : 0,
+  };
+}
+
+/* -------------------------------------------------------
+ * 圓餅圖
+ * ----------------------------------------------------- */
+function progressPie(rate, centerText) {
+  const safeRate = Math.max(0, Math.min(100, rate));
+
+  return `
+    <div
+      class="progress-pie"
+      style="--progress:${safeRate * 3.6}deg"
+      role="img"
+      aria-label="${safeRate}%"
+    >
+      <div class="progress-pie-center">
+        <strong>${escapeHtml(centerText)}</strong>
+      </div>
+    </div>
+  `;
+}
+
+/* -------------------------------------------------------
+ * 建立月曆
+ * ----------------------------------------------------- */
+
+function buildCalendarData(date = new Date()) {
+  const year = date.getFullYear();
+  const month = date.getMonth();
+
+  const firstDay = new Date(year, month, 1);
+  const lastDay = new Date(year, month + 1, 0);
+
+  const firstWeekday = firstDay.getDay();
+  const totalDays = lastDay.getDate();
+
+  return {
+    year,
+    month,
+    firstWeekday,
+    totalDays,
+  };
+}
+
+function renderPracticeCalendar() {
+  const progress = loadProgress();
+  const calendar = buildCalendarData();
+
+  const monthLabel =
+    `${calendar.year} 年 ${calendar.month + 1} 月`;
+
+  const weekdayLabels = [
+    "日",
+    "一",
+    "二",
+    "三",
+    "四",
+    "五",
+    "六",
+  ];
+
+  const cells = [];
+
+  for (let index = 0; index < calendar.firstWeekday; index += 1) {
+    cells.push(`<div class="calendar-cell empty"></div>`);
+  }
+
+  for (let day = 1; day <= calendar.totalDays; day += 1) {
+    const date = new Date(
+      calendar.year,
+      calendar.month,
+      day,
+    );
+
+    const dateKey = getLocalDateKey(date);
+    const practiceCount =
+      progress.practiceDates?.[dateKey] ?? 0;
+
+    cells.push(`
+      <div class="calendar-cell">
+        <span class="calendar-day">${day}</span>
+
+        ${
+          practiceCount > 0
+            ? `
+              <img
+                class="calendar-stamp"
+                src="./icon/yzm_icon.png"
+                alt="當日已練習"
+                title="當日完成 ${practiceCount} 次練習"
+              >
+            `
+            : ""
+        }
+
+        ${
+          practiceCount > 1
+            ? `
+              <span class="practice-count">
+                ×${practiceCount}
+              </span>
+            `
+            : ""
+        }
+      </div>
+    `);
+  }
+
+  return `
+    <section class="dashboard-section">
+      <h2>每日練習簽到</h2>
+      <p class="note">
+        完成一次測驗並送出答案後，當天會留下簽到戳記。
+      </p>
+
+      <div class="calendar">
+        <h3>${monthLabel}</h3>
+
+        <div class="calendar-weekdays">
+          ${weekdayLabels
+            .map((label) => `<div>${label}</div>`)
+            .join("")}
+        </div>
+
+        <div class="calendar-grid">
+          ${cells.join("")}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
 
 /* -------------------------------------------------------
  * 啟動

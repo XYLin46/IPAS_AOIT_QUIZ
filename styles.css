@@ -198,3 +198,181 @@ dialog {
   box-shadow: var(--shadow);
 }
 dialog::backdrop { background: rgb(0 0 0 / 50%); }
+
+.dashboard-section {
+  margin-top: 2rem;
+}
+
+.dashboard-section > h2 {
+  margin-bottom: 1rem;
+}
+
+.subject-progress-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.subject-progress-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.subject-progress-card h3 {
+  margin: 0 0 0.65rem;
+}
+
+.subject-progress-card p {
+  margin: 0.35rem 0;
+}
+
+.progress-pie {
+  --progress: 0deg;
+
+  flex: 0 0 auto;
+  width: 112px;
+  height: 112px;
+  padding: 12px;
+  border-radius: 50%;
+
+  background:
+    conic-gradient(
+      var(--primary) 0deg var(--progress),
+      var(--line) var(--progress) 360deg
+    );
+}
+
+.progress-pie-center {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--panel);
+}
+
+.progress-pie-center strong {
+  font-size: 1.25rem;
+}
+
+.calendar {
+  max-width: 720px;
+  margin-inline: auto;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+}
+
+.calendar h3 {
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.calendar-weekdays,
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.calendar-weekdays {
+  margin-bottom: 0.4rem;
+  color: var(--muted);
+  font-weight: 700;
+  text-align: center;
+}
+
+.calendar-weekdays > div {
+  padding: 0.5rem 0.2rem;
+}
+
+.calendar-cell {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 82px;
+  padding: 0.45rem;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.calendar-cell:nth-child(7n) {
+  border-right: 1px solid var(--line);
+}
+
+.calendar-cell:nth-last-child(-n + 7) {
+  border-bottom: 1px solid var(--line);
+}
+
+.calendar-cell.empty {
+  background: color-mix(
+    in srgb,
+    var(--line) 25%,
+    transparent
+  );
+}
+
+.calendar-day {
+  position: relative;
+  z-index: 2;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.calendar-stamp {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  transform: translate(-50%, -45%);
+  opacity: 0.9;
+}
+
+.practice-count {
+  position: absolute;
+  right: 0.3rem;
+  bottom: 0.25rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--primary-contrast);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .subject-progress-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-progress-card {
+    align-items: flex-start;
+  }
+
+  .progress-pie {
+    width: 88px;
+    height: 88px;
+  }
+
+  .calendar {
+    padding: 0.55rem;
+  }
+
+  .calendar-cell {
+    min-height: 58px;
+    padding: 0.25rem;
+  }
+
+  .calendar-stamp {
+    width: 38px;
+    height: 38px;
+  }
+
+  .practice-count {
+    font-size: 0.6rem;
+  }
+}
