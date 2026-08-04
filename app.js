@@ -1658,4 +1658,3 @@ async function init() {
 }
 
 init();
-EOF
