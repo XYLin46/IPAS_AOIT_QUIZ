@@ -249,128 +249,20 @@ function progressStats() {
 
 async function renderHome() {
   app.innerHTML = `
-  <section class="panel">
-
-    <section class="dashboard-section dashboard-section-first">
-      <h2>選擇練習模式</h2>
-
-      <div class="grid">
-        <article class="card mode-card">
-          <h2>年度測驗</h2>
-
-          <p>
-            選擇 U1 或 U2，再指定年度與場次。
-            題目與選項都會隨機排列。
-          </p>
-
-          <button class="primary" data-mode="year">
-            開始設定
-          </button>
-        </article>
-
-        <article class="card mode-card">
-          <h2>隨機測驗</h2>
-
-          <p>
-            優先抽選未做過的題目；
-            未做題不足時，再由已做題補足 50 題。
-          </p>
-
-          <button class="primary" data-mode="random">
-            開始設定
-          </button>
-        </article>
-
-        <article class="card mode-card">
-          <h2>錯題測驗</h2>
-
-          <p>
-            從目前瀏覽器曾經答錯的題目中，
-            隨機抽選最多 20 題。
-          </p>
-
-          <button class="primary" data-mode="wrong">
-            開始設定
-          </button>
-        </article>
-      </div>
+    <section class="panel">
+      <p>正在整理題庫進度……</p>
     </section>
-
-    <section class="dashboard-section">
-      <h2>學習進度</h2>
-
-      <div class="stats">
-        <div class="stat">
-          <strong>
-            ${u1.attempted + u2.attempted}
-          </strong>
-          <span>曾經做過</span>
-        </div>
-
-        <div class="stat">
-          <strong>${wrongCount}</strong>
-          <span>目前錯題</span>
-        </div>
-
-        <div class="stat">
-          <strong>${totalAttempts}</strong>
-          <span>累積作答次數</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="dashboard-section">
-      <h2>題庫完成度</h2>
-
-      <div class="subject-progress-grid">
-        ${renderSubjectProgressCard(
-          "物聯網基礎架構概論（U1）",
-          u1,
-          "completion",
-        )}
-
-        ${renderSubjectProgressCard(
-          "物聯網系統與應用（U2）",
-          u2,
-          "completion",
-        )}
-      </div>
-    </section>
-
-    <section class="dashboard-section">
-      <h2>答對題目覆蓋率</h2>
-
-      <div class="subject-progress-grid">
-        ${renderSubjectProgressCard(
-          "物聯網基礎架構概論（U1）",
-          u1,
-          "correct",
-        )}
-
-        ${renderSubjectProgressCard(
-          "物聯網系統與應用（U2）",
-          u2,
-          "correct",
-        )}
-      </div>
-    </section>
-
-    ${renderPracticeCalendar()}
-
-  </section>
-`;
+  `;
 
   try {
+    // 必須先取得 U1、U2 的題庫與學習統計
     const [u1, u2] = await Promise.all([
       calculateSubjectStats("U1"),
       calculateSubjectStats("U2"),
     ]);
 
     const progress = loadProgress();
-
-    const allProgressItems = Object.values(
-      progress.questions,
-    );
+    const allProgressItems = Object.values(progress.questions);
 
     const totalAttempts = allProgressItems.reduce(
       (sum, item) => sum + (item.attempts ?? 0),
@@ -383,27 +275,76 @@ async function renderHome() {
 
     app.innerHTML = `
       <section class="panel">
-        <h2>學習進度</h2>
 
-        <div class="stats">
-          <div class="stat">
-            <strong>
-              ${u1.attempted + u2.attempted}
-            </strong>
-            <span>曾經做過</span>
+        <!-- 選擇練習模式移到最上方 -->
+        <section class="dashboard-section dashboard-section-first">
+          <h2>選擇練習模式</h2>
+
+          <div class="grid">
+            <article class="card mode-card">
+              <h2>年度測驗</h2>
+
+              <p>
+                選擇 U1 或 U2，再指定年度與場次。
+                題目與選項都會隨機排列。
+              </p>
+
+              <button class="primary" data-mode="year">
+                開始設定
+              </button>
+            </article>
+
+            <article class="card mode-card">
+              <h2>隨機測驗</h2>
+
+              <p>
+                優先抽選未做過的題目；
+                未做題不足時，再由已做題補足 50 題。
+              </p>
+
+              <button class="primary" data-mode="random">
+                開始設定
+              </button>
+            </article>
+
+            <article class="card mode-card">
+              <h2>錯題測驗</h2>
+
+              <p>
+                從目前瀏覽器曾經答錯的題目中，
+                隨機抽選最多 20 題。
+              </p>
+
+              <button class="primary" data-mode="wrong">
+                開始設定
+              </button>
+            </article>
           </div>
+        </section>
 
-          <div class="stat">
-            <strong>${wrongCount}</strong>
-            <span>目前錯題</span>
+        <!-- 學習進度 -->
+        <section class="dashboard-section">
+          <h2>學習進度</h2>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>${u1.attempted + u2.attempted}</strong>
+              <span>曾經做過</span>
+            </div>
+
+            <div class="stat">
+              <strong>${wrongCount}</strong>
+              <span>目前錯題</span>
+            </div>
+
+            <div class="stat">
+              <strong>${totalAttempts}</strong>
+              <span>累積作答次數</span>
+            </div>
           </div>
+        </section>
 
-          <div class="stat">
-            <strong>${totalAttempts}</strong>
-            <span>累積作答次數</span>
-          </div>
-        </div>
-
+        <!-- 題庫完成度 -->
         <section class="dashboard-section">
           <h2>題庫完成度</h2>
 
@@ -422,6 +363,7 @@ async function renderHome() {
           </div>
         </section>
 
+        <!-- 答對覆蓋率 -->
         <section class="dashboard-section">
           <h2>答對題目覆蓋率</h2>
 
@@ -440,63 +382,25 @@ async function renderHome() {
           </div>
         </section>
 
+        <!-- 每日簽到 -->
         ${renderPracticeCalendar()}
 
-        <section class="dashboard-section">
-          <h2>選擇練習模式</h2>
-
-          <div class="grid">
-            <article class="card mode-card">
-              <h2>年度測驗</h2>
-              <p>
-                選擇 U1 或 U2，再指定年度與場次。
-                題目與選項都會隨機排列。
-              </p>
-
-              <button class="primary" data-mode="year">
-                開始設定
-              </button>
-            </article>
-
-            <article class="card mode-card">
-              <h2>隨機測驗</h2>
-              <p>
-                優先抽選未做過的題目；
-                未做題不足時，再由已做題補足 50 題。
-              </p>
-
-              <button class="primary" data-mode="random">
-                開始設定
-              </button>
-            </article>
-
-            <article class="card mode-card">
-              <h2>錯題測驗</h2>
-              <p>
-                從目前瀏覽器曾經答錯的題目中，
-                隨機抽選最多 20 題。
-              </p>
-
-              <button class="primary" data-mode="wrong">
-                開始設定
-              </button>
-            </article>
-          </div>
-        </section>
       </section>
     `;
 
+    // 重新綁定三個模式按鈕
     app.querySelectorAll("[data-mode]").forEach((button) => {
       button.addEventListener("click", () => {
         renderModeSetup(button.dataset.mode);
       });
     });
   } catch (error) {
-    console.error(error);
+    console.error("首頁載入失敗：", error);
 
     app.innerHTML = `
       <section class="panel">
         <h2 class="error">無法計算學習進度</h2>
+
         <p>${escapeHtml(error.message)}</p>
 
         <div class="actions">
