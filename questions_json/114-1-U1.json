@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 2,
+  "title": "114-1-U1",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "在精密的氣象監測中，哪種感測器利用具彈性變形特性的伸縮囊，透過偵測大氣壓力引起的細微機械位移，並經由內部機構將其轉換為電訊號輸出，以提供極高靈敏度和精確度的大氣壓力數據？",
+      "options": [
+        {
+          "id": "A",
+          "text": "壓力感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "溫度感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "濕度感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "氣壓感測器",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 2,
+      "question": "無線感測網路由大量具備感測功能的節點組成，這些節點可用於感測和監控所在位置的物理或環境狀況。下列哪一項正確描述無線感測網路的特性及其應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "無線感測網路的感測節點只能單向傳輸數據，無法與其他節點進行通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "無線感測網路的感測節點具備自我配置能力，能夠感測環境、協同通訊並組織網路拓撲結構",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "無線感測網路的節點通常僅能感測特定環境參數，且無法自行組織或形成拓撲結構",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "無線感測網路主要應用於短距離通訊，無法擴展到大 規模環境監測",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 3,
+      "question": "下列哪一種感測器最能夠應用於電子羅盤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "陀螺儀",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "磁力感測器",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "三軸加速度計",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "震動感測器",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 4,
+      "question": "下列哪一項最能描述電容感測器在物聯網應用中的工作原理？",
+      "options": [
+        {
+          "id": "A",
+          "text": "偵測電阻變化",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "測量由於物體接近而導致的電氣變化",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "測量照度的變化",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "測量聲波的反射",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 5,
+      "question": "在部署物聯網感測器於惡劣環境(如石油和天然氣場地)時，下列哪一項為主要挑戰？",
+      "options": [
+        {
+          "id": "A",
+          "text": "缺乏雲端連接",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "感測器處理能力有限",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "環境因素影響感測器的準確性和耐用性",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "高速數據傳輸",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 6,
+      "question": "針對感測器的特性，下列哪一項的敘述正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "考量到產品維護的便利性，使用無線傳輸感測器產品時，首要考量是保留原始感測器初始的帳號密碼",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "多數的感測器功耗通常很小，所以在設計應用場景 上，不需擔心電力消耗的問題",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "感測器使用於科學儀器測量場域時，需要考量感測值 回傳的精準度",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "近年來 AI 應用產業發展迅速，高算力的需求增加， 感測器皆屬於低速應用，不適合與 AI 結合",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 7,
+      "question": "感測器的類型相當多元，下列哪一項敘述錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "溫度感測器可用於工業和醫療設備，以利物聯網監控並調節溫度",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "麥克風可用於智慧型手機上，屬於音源訊號，不屬於感測器",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "陀螺儀可用於導航系統、飛行器，可測量角速度和方向",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "加速度計用於航太、汽車和消費性電子產品，測量加速度、振動和運動",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 8,
+      "question": "在智慧城市的洪水預警系統中，若使用水位感測器監測河道水位，下列哪一項設計最「無」助於提升預警準確性？",
+      "options": [
+        {
+          "id": "A",
+          "text": "增加感測器的測量頻率",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "為每個感測器配備獨立的資料存儲設備",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "將多個感測器的資料進行融合和異常檢測",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "使用單一感測器並提高其精度",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 9,
+      "question": "關於 G-sensor 應用，下列敘述何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "G-sensor 可以應用於無人機的姿態控制，僅須透過檢測飛行過程中的三軸加速度變化，便可有效調整無人 機的飛行姿態",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "G-sensor 主要應用於精密醫療設備中，透過檢測微小的震動和位移，來監控患者心率變化，確保心跳穩定",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "在汽車碰撞事件中，G-sensor 會立即記錄碰撞的加速度數據，並在必要時觸發安全氣囊，這依賴於加速度感測器檢測到的重力加速度峰值",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "G-sensor 在虛擬實境(VR)頭盔中用於眼球追蹤，將動作轉換成虛擬環境中的操作命令",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 10,
+      "question": "對於市售穿戴式裝置中心跳測量技術之描述，下列何者正 確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "穿戴式裝置能利用光聲技術(Photoacoustic Imaging, PAI)，透過雷射光照射皮膚，檢測血管中的聲波來測量心跳速率",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "穿戴式裝置使用量子點光源代替傳統 LED，透過改變光源頻率以精確檢測血管中的血液流速來測量心跳",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "穿戴式裝置利用微波雷達技術，透過測量皮膚表面微小移動，檢測心臟收縮和舒張的物理運動，來實現無接觸心跳測量",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "穿戴式裝置結合光學體積描記法(PPG)與心電圖 (ECG)雙模技術，透過光學訊號和電生理訊號的同步分析來測量心跳",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 11,
+      "question": "為了避免多個電子標籤訊號的碰撞，通常 RFID 系統會採用防碰撞(Anti-Collision)機制，下列哪一項技術最「不」適 合使用在防碰撞機制？",
+      "options": [
+        {
+          "id": "A",
+          "text": "SDMA(Space Division Multiple Access)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "TDMA(Time Division Multiple Access)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Slotted ALOHA",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "DSSS(Direct Sequence Spread Spectrum)",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 12,
+      "question": "某廠商設計一款防盜刷皮包，稱可以在公共場所防止信用卡、護照被盜拷側錄。請問該產品是利用哪一項 RFID 理論進行設計？",
+      "options": [
+        {
+          "id": "A",
+          "text": "傅立葉原理",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "法拉第電磁感應定律",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "屏蔽原理",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "不同電磁波頻率",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 13,
+      "question": "RFID 通訊距離的描述，下列何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFC(Near field communication)屬於 RFID 技術的一種，頻率為 13.56MHz，有效工作距離在 20 公分以內",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "RFID 的操作頻率越高，Reader 可讀取到 Tag 的距離越遠，天線越小，但資料傳輸率較低",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "被動式電子標籤(Passive Tag)的有效識別距離通常較主動式短",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "被動式超高頻電子標籤一般可讀取距離為 4-6 公尺",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 14,
+      "question": "關於被動式無線射頻辨識(RFID)標籤的敘述，下列何者「最」正確地描述其運作機制及限制？",
+      "options": [
+        {
+          "id": "A",
+          "text": "讀取器發射頻率降低時依然能穩定運作",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "無法傳輸加密資料，因為無電源支持的計算能力有限",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "被動式 RFID 標籤的讀取距離通常超過主動式 RFID 標籤",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "讀取距離會因為周圍環境的金屬或液體而受影響",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 15,
+      "question": "在物流系統中，使用 RFID 技術而非條碼技術進行貨物追蹤的哪一項特性「最」能提高運營效率？",
+      "options": [
+        {
+          "id": "A",
+          "text": "RFID 標籤在遠距離讀取時能避免資料衝突，確保每個標籤都精準讀取",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "RFID 標籤記憶體內的資料會隨貨物移動而自動更新",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "RFID 能夠同時讀取多個標籤",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "RFID 讀取速度比條碼快數十倍，因此成本相對更低",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 16,
+      "question": "CoAP(Constrained Application Protocol)是一種用於物聯網 (IoT)的通訊協定，關於 CoAP 的描述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "是一種輕量級、簡單的通訊協定，主要適用於物聯網設備間的通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "使用 UDP(User Datagram Protocol)作為傳輸層協定，並且支援多種連接性選項",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "支援兩種不同的資料交換模型，分別是客戶端/伺服器模型和觀測/通知模型，使得設備間的通訊更加靈活和 高效率",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "只能使用 ACK 訊息將資源內容傳送給客戶端",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 17,
+      "question": "對於 Matter 標準，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "為智慧家庭相關設備互相連線的一個開源標準",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "只要支援 Matter 的感測裝置就可透過 Google Home 以及 Apple HomeKit 進行遠端控制",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Matter解決廠商需要針對不同物聯網平臺開發不同產 品的問題",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Matter 以 5G 作為網路通訊基礎",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 18,
+      "question": "下列何種網路應用層通訊協定最適合高頻率的物聯網資料傳輸(例如每秒傳送 100 筆感測器資料)？",
+      "options": [
+        {
+          "id": "A",
+          "text": "FTP",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "HTTP",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "MQTT",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "WebSocket",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 19,
+      "question": "在 Wi-Fi 訊號中的 SSID 功用為下列何者？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wi-Fi 加密類型",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "版本編號類似 IEEE 的 802.11n",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "儲存該基地台基本資訊，例如製造商…等",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Wi-Fi 基地台識別碼",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 20,
+      "question": "某大型農場需要採用一個兼具省電與抗無線干擾特性的物聯網通訊協定，以進行定時的溫度、濕度資料搜集，並將數據上傳到雲端平台進行監控。請問下列何者是最佳的物聯網 通訊協定選項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "LoRaWAN",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Wi-Fi 6",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Bluetooth 5.0",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Zigbee",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 21,
+      "question": "對於 MQTT 協定，下列敘述哪一項正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "MQTT 採用請求/回應(Request/Response)通訊模式",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "MQTT 封包標頭(Header)長度比 HTTP 封包標頭短",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "MQTT 採用雙向同步傳輸",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "MQTT 是 OSI 網路層的協定",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 22,
+      "question": "對於藍牙低功耗(BLE)敘述，下列何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "GATT client 又稱為 Peripheral，例如智慧手錶",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "藍牙斷線後不需要重新配對就能重新恢復連線",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Peripheral 必須透過 advertising 才能讓自身藍牙裝置被掃描到",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "BLE 不需要經過藍牙配對即可傳輸資料",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 23,
+      "question": "NB-IoT 與 LTE-M 的比較，下列何者有誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "NB-IoT 與 LTE-M 皆支援基地台間的移動性",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "NB-IoT 與 LTE-M 皆屬於 3GPP 的國際標準",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "NB-IoT 與 LTE-M 皆使用執照頻段",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "LTE-M 支援的傳輸速率較 NB-IoT 高",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 24,
+      "question": "下列哪個通訊協定最適合在物聯網中用於低功耗且數據傳輸量小的設備通訊？",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTP",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "MQTT",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "FTP",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "SNMP",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 25,
+      "question": "假設一台設備的 IP 位址是 10.20.145.200，子網路遮罩為255.255.224.0。請問該設備所屬的網路識別碼(Network ID) 和可用的第一個主機位址為何？",
+      "options": [
+        {
+          "id": "A",
+          "text": "網路識別碼：10.20.144.0，第一個主機位址：10.20.144.1",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "網路識別碼：10.20.145.0，第一個主機位址：10.20.145.1",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "網路識別碼：10.20.160.0，第一個主機位址：10.20.160.1",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "網路識別碼：10.20.168.0，第一個主機位址：10.20.168.1",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 26,
+      "question": "關於電磁波的敘述，下列何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "在醫院通常利用 X 光進行病房和手術室的消毒工作",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "用紅外線照射鈔票時，鈔票上利用螢光物質印刷的文字或圖像會發出螢光",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "手機基地台信號越強，手機通訊時輻射越大",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "電磁波屏蔽材料主要特性受到磁導率及導電性所影 響",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 27,
+      "question": "下列何種技術最可用於降低智慧工廠中無線通訊的電磁干擾？",
+      "options": [
+        {
+          "id": "A",
+          "text": "增強設備的屏蔽能力",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "使用 5G mmWave 頻段",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "移除所有無線通訊設備",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "提高通訊能量",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 28,
+      "question": "下列何項是無人機天線設計中，應避免靠近電池的主要原因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "電池可能會吸收 RF 信號，影響通訊品質",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "電池釋放的熱量會導致天線損壞",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "電池的重量會影響天線的匹配特性",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "電池本身會產生強烈的射頻干擾",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 29,
+      "question": "下列哪一種電磁波的波長「最」短？",
+      "options": [
+        {
+          "id": "A",
+          "text": "紅外線",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "微波",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "紫外線",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "FM 無線電波",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 30,
+      "question": "在 RFID 系統中，為了確保不同頻段的設備能夠共存運行，國際上對 RFID 頻段規範進行了標準化。下列哪一項是針對 UHF RFID 的全球標準？",
+      "options": [
+        {
+          "id": "A",
+          "text": "ISO/IEC 14443",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "ISO/IEC 15693",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "EPCglobal Gen2 (ISO/IEC 18000-63)",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "IEEE 802.15.4",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 31,
+      "question": "雲端運算三種基本服務中，SaaS 的主要特點是下列哪一項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "使用者可以自由控制虛擬機器的配置和管理",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "使用者可以使用各種語言和框架開發應用程式",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "使用者可以直接控制網路連接和基礎架構即服務",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "使用者無需安裝和管理軟體，可透過瀏覽器存取應用程式和服務",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 32,
+      "question": "在物聯網系統中，選擇使用雲端技術即時資料處理的主要挑戰是什麼？",
+      "options": [
+        {
+          "id": "A",
+          "text": "需要在每個裝置上配置高性能處理器來處理資料",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "可能會出現較高的網路延遲",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "無法擴展以支援大量物聯網裝置的連接需求",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "需要安裝大量本地伺服器來處理和存儲資料",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 33,
+      "question": "沒有使用者介面的物聯網設備，應使用 OAuth 2.0 的何種授權類型進行授權？",
+      "options": [
+        {
+          "id": "A",
+          "text": "憑證授權(Client Credentials Grant)",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "授權碼授權(Authorization Code Grant)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "隱含授權(Implicit Grant)",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "密碼授權( Resource Owner Password Credentials Grant)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 34,
+      "question": "在物聯網與軟體即服務(SaaS)整合的應用中，下列哪一項 「最」能實現這種整合的核心價值？",
+      "options": [
+        {
+          "id": "A",
+          "text": "客戶可以隨時下載物聯網設備的歷史資料，並在本地軟體中分析",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "物聯網設備自動更新其韌體以適應 SaaS 平台的新功能",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "SaaS 平台允許客戶手動更新每個物聯網設備，確保設備資料的定期同步",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "SaaS 平台能即時接收和處理物聯網設備資料，並透過雲端提供分析和預測服務",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 35,
+      "question": "一家物聯網軟體即服務(SaaS)公司希望透過提供數據即服務(DaaS)模式來增強其平台價值。為了達成這一目標，公司應該優先考慮以下哪一項策略？",
+      "options": [
+        {
+          "id": "A",
+          "text": "增加物聯網設備的兼容性，確保平台支援更多的硬體品牌",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "開發客製化應用程式，讓每個客戶都能針對不同設備自動生成資料報告",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "提高用戶的資料下載量限制，允許客戶隨時獲取大規模歷史資料",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "採用資料收集和分析技術，將大量不同來源的數據轉 化為有價值的結果",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 36,
+      "question": "平台式服務(PaaS)是一種雲端運算服務模型，提供彈性的可擴充雲端平台，可用於開發、部署、執行及管理應用程式。 物聯網雲端服務平台的 PaaS 採用的雲端原生架構和傳統系統架構相比，下列描述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "雲端原生以封裝形式將應用程式部署在容器 (Container)中，可以讓部署程序變得更加可預測",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "雲端原生藉由動態管理任務需要的容器(Container) 數量和運作位置，實現快速彈性伸縮伺服器節點及網路系統規模",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "雲端原生與傳統系統架構相比，具有較差的可觀察性 (Observability)，無法即時監控應用程式運行狀況",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "採微服務導向(Microservices oriented)的雲端原生 PaaS，每個微服務都可以獨立於應用中的其他服務進 行部署、升級、擴展和重新啟動，讓物聯網雲端服務 平台的服務水準更好",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 37,
+      "question": "關於同時提升雲端和邊緣計算(Edge Computing)效率的敘 述，下列何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "透過佈署到邊緣設備的數據分析或 AI 模型處理本地數據後直接執行低延遲反應的作業；雲端可定時更新 邊緣運算相依的數據，不需即時",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "升級雲端平台的運算能力，所有邊緣設備數據都回傳至雲端後進行處理，再由雲端執行低延遲反應的作業",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "同時提升雲端服務平台和邊緣計算的中央處理器",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "邊緣計算只支援靜態數據分析，不進行即時數據處理",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 38,
+      "question": "EddyStone 和 iBeacon 均為使用 LBS(Location Based Service) 應用的技術，關於這兩項技術的敘述，下列何者正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "iBeacon 只適用於 iOS 作業系統的裝置",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "EddyStone 可支援 URL 傳輸，但 iBeacon 不行",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "iBeacon 採用 BLE 技術，EddyStone 採用 UWB 技術",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "EddyStone 只能廣播唯一識別碼(UID)，iBeacon 可廣播包含 UID 的多種資訊",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 39,
+      "question": "在智慧健康照護的物聯網應用中，為了實現病患健康資料的即時異常檢測與預警，哪一項技術組合「最」能有效平衡資料處理的效率與傳輸延遲？",
+      "options": [
+        {
+          "id": "A",
+          "text": "結合穿戴式裝置、邊緣運算和分散式機器學習，減少數據傳輸至雲端的需求",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "使用雲端資料分析與 AI 模型，以實現精準的異常檢 測",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "透過區塊鏈技術加密病患資料，確保資料的安全性和隱私保護",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "利用虛擬實境技術模擬病患的身體反應，幫助醫療人員進行診斷",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 40,
+      "question": "在一個物聯網應用中，若需大範圍部署數以千計的低功耗感測裝置，並要求裝置在深度室內或地區行動基地台訊號較弱 的環境中依然保持穩定連接，同時支援定期低頻次數據傳輸，下列哪一種 LPWAN 技術「最」符合此需求？",
+      "options": [
+        {
+          "id": "A",
+          "text": "NB-IoT",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "LoRa",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Zigbee",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "LTE-M",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 41,
+      "question": "下列何種應用場景最「不」適合使用 iBeacon 技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "倉庫管理系統：透過 iBeacon 追蹤每個貨物的即時位置，並自動更新庫存狀態",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "醫院病房定位：為醫護人員提供即時病患與設備的位置資訊",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "智慧零售：消費者接收 iBeacon 提供的促銷資訊",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "無人機物流：透過 iBeacon 訊號導航無人機精準降落 在指定地點",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 42,
+      "question": "下列何項是 GPS 衛星定位系統使用的訊號傳遞方式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "光纖傳輸",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "紅外線傳輸",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "無線電波傳輸",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "雷射傳輸",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 43,
+      "question": "自動駕駛、智慧導航、智慧運輸物流等應用必須在極短時間內可靠地將資訊傳播給車輛，這些應用需使用下列何項 5G 行動服務技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "增強型行動寬頻(eMBB)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "超高可靠度低延遲通訊(URLLC)",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "低軌衛星(LEO)通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "大規模機器型態通訊(mMTC)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 44,
+      "question": "如果要即時取得廠房內物料的放置位置，最不可能使用下列何項即時定位系統 RTLS(Real Time Location System)技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "RFID",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "BLE",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "UWB",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "GPS",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 45,
+      "question": "家用掃地機器人使用下列哪一種技術？",
+      "options": [
+        {
+          "id": "A",
+          "text": "全球定位系統(GPS)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "差分全球定位系統(DGPS)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "區塊鏈技術",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "同步定位及地圖建構(SLAM)",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 46,
+      "question": "下列何種 GPS 訊號干擾來源，最可能影響無人機的正常運行？",
+      "options": [
+        {
+          "id": "A",
+          "text": "太陽風暴",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "來自其他 GPS 設備的訊號",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "紅外線干擾",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "地磁變化",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 47,
+      "question": "在物聯網應用層中，下列哪一種技術組合「最」能支援自然語言操作？",
+      "options": [
+        {
+          "id": "A",
+          "text": "基於 MQTT 和 CoAP 協定進行數據傳輸，結合定制的 JSON 資料格式以達成跨領域資料交換",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "使用知識圖譜技術和大規模語言模型，以促進資料語義解釋並動態配置程式代理架構",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "採用容器技術(如 Docker 和 Kubernetes)來管理分散式應用，實現動態資源分配",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "基於區塊鏈技術進行資料記錄，結合傳輸層安全性協定(如 TLS 以保障資料的安全交換)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 48,
+      "question": "如附圖所示，為某商品標籤，依據 EPCglobal TDS 標準，下列何者為該 RFID 中 EPC Memory Bank 的容量大小？",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 M bytes",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "240 bits",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "96 bits",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "38 bits",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 49,
+      "question": "Walmart 要求供應商 RFID 貼標指引中，要求標籤必須「永久」鎖定以防止篡改(Tags must be permalocked to prevent tampering)。請問下列何指令為 EPC 編碼寫入記憶體區塊執行？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lock",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Kill",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Write",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "permalocked",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 50,
+      "question": "UHF RFID 標籤天線在受到外部電磁環境干擾時，「最」有可能受到的直接影響是什麼？",
+      "options": [
+        {
+          "id": "A",
+          "text": "標籤的內部資料被覆蓋",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "標籤的讀取距離縮短或失效",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "標籤的序列號變化",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "標籤的工作溫度降低",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    }
+  ]
+}

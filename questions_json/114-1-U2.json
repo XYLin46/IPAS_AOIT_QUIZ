@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 2,
+  "title": "114-1-U2",
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "在智慧能源系統中，下列哪一個元件最適合用於監控能源消耗並預測未來的能源需求？",
+      "options": [
+        {
+          "id": "A",
+          "text": "電力感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "智慧電表",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "壓力感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "不斷電系統",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 2,
+      "question": "NoSQL 是使用多種資料模型來存取及管理資料的資料庫， 關於 NoSQL 的敘述，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "是一種非關聯式資料庫",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "具有可擴展性",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "文本式資料通常儲存為 JSON 文件",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "PostgreSQL 是屬於 NoSQL 資料庫",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 3,
+      "question": "為延長物聯網裝置的電池壽命，下列哪一種電力管理技術 「最」合適？",
+      "options": [
+        {
+          "id": "A",
+          "text": "每 5 分鐘自動重啟系統以避免高功耗",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "透過射頻傳輸大量資料",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "使用低電壓元件",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "讓 CPU 在滿載狀態運行以加速任務完成",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 4,
+      "question": "在物聯網系統架構中，智慧中樞於智慧家居的應用主要扮演 下列哪一項角色？",
+      "options": [
+        {
+          "id": "A",
+          "text": "管理智慧設備與資料傳輸",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "監控能源消耗",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "提供娛樂選項",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "控制傳統家電",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 5,
+      "question": "物聯網應用於實體零售業，下列哪一項「不」是構成系統架 構的關鍵元素？",
+      "options": [
+        {
+          "id": "A",
+          "text": "感測器及智慧設備",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "雲端運算和數據分析",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "發票列印機",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "手機 App",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 6,
+      "question": "物聯網在農業應用中，用於監測農作物生長狀況的感測器， 「不」包括下列哪一項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "三軸加速度生長感測器",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "溫度和濕度感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "光照感測器",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "土壤酸鹼度感測器",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 7,
+      "question": "下列哪一種架構設計允許設備在網路中直接相互通訊，不必 透過中央伺服器？",
+      "options": [
+        {
+          "id": "A",
+          "text": "客戶端-伺服器架構",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "集中式架構",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "P2P(點對點)架構",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "分層式架構",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 8,
+      "question": "在無線感測網路中，下列哪一種機制最常用於確保處於睡眠 模式的節點，仍然能參與網路通信？",
+      "options": [
+        {
+          "id": "A",
+          "text": "低占空比(Low Duty Cycle)調度機制",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "節點完全關機",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "高頻率喚醒模式",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "增強節點的計算能力",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 9,
+      "question": "在智慧城市的物聯網應用中，下列何種裝置最可能用於智慧 交通管理？",
+      "options": [
+        {
+          "id": "A",
+          "text": "路燈開關計時器",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "交通流量監測攝影機",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "家庭用無線路由器",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "自動駕駛系統",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 10,
+      "question": "有關邊緣運算，下列敘述何者「不」正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "可有效減少資料處理與傳輸時間",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "部署位置位於雲端伺服器與感測器之間",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "架構上屬於分散式系統",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "無資料儲存能力",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 11,
+      "question": "對於常見溫溼度感測器的問題判斷與排除方式，下列敘述何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "如果想應用在高精度、低功耗的環境監測，使用 DHT22 會比 DHT11 適合",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "如果無法讀到 DHT11 感測器的數值，首先要檢查供 電電壓是否正確(DHT 需要 3.3V 或 5V)，再測試訊 號線是否有上拉電阻(DHT 需要 4.7kΩ pull-up)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "如果讀取 DHT11 仍然出現錯誤或無法通訊，可使用 電錶檢查 I2 C/SPI 訊號是否正確",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "如果讀取 DHT11 常常出現 CRC 錯誤，可以嘗試降 低通訊速率，或是更換較短並且品質較好的排線",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 12,
+      "question": "當感測器讀取不到資訊時，下列何種工具最適合用來檢查 I2 C 通訊的資訊流？",
+      "options": [
+        {
+          "id": "A",
+          "text": "示波器(Oscilloscope)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "邏輯分析儀(Logic Analyzer)",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "電錶(Multimeter)",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "紅外熱像儀(Thermal Camera)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 13,
+      "question": "關於採用生物辨識的物聯網應用系統，下列哪一項正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "人臉辨識的辨識率與攝影機解析度無關",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "語音辨識的辨識率不會受到附近噪音的影響",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "虹膜辨識不容易被複製",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "聲紋辨識已用在銀行的自動提款機",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 14,
+      "question": "如果物聯網系統因 RF 干擾頻繁發生數據傳輸錯誤，最合適 的疑難排解方法是下列哪一項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "使用遮蔽或吸波材料",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "增加傳輸功率",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "使用錯誤校正協議",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "實施碰撞檢測機制",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 15,
+      "question": "在藍牙網狀網路(BLE Mesh)網路中，閘道器(Gateway) 無法發送配置訊息到指定節點，下列何者為「最」可能的原 因？",
+      "options": [
+        {
+          "id": "A",
+          "text": "節點的設備密鑰(Device Key)丟失",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "節點與閘道器的物理距離過近",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "節點未啟用 Proxy 功能",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "節點未設置唯一的廣播頻率",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 16,
+      "question": "當 iBeacon 用於室內導航系統時，依據訊號強度指示(RSSI) 來測量距離，通常面臨下列何種主要限制？",
+      "options": [
+        {
+          "id": "A",
+          "text": "訊號的加密安全性不足",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "訊號衰減易受環境干擾影響",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "計算複雜度過高",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "信標的廣播頻率過低",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 17,
+      "question": "在物聯網資訊交換中，訊息服務(Message Service)的主要 作用為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "提供所有物聯網設備的即時同步",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "確保物聯網網路中的安全資訊儲存",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "用於物聯網設備與應用之間的非同步通訊",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "將感測器的模擬信號轉換為數位資訊",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 18,
+      "question": "當使用圖像處理技術進行環境監測的物聯網資訊出現不準 確時，最「不」可能的原因為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "解析度不足",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "環境的光照條件不佳",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "影像遭遮蔽",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "周邊無線設備產生的無線信號雜訊",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 19,
+      "question": "在處理大量感測資訊的物聯網系統中，當出現與儲存相關的 問題導致系統性能下降時，最可能的原因為下列何項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "RF 信號強度不足",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "感測器數量擴充過多或回報頻率增加",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "無線信號碰撞",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "基於雲端的運算服務超載",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 20,
+      "question": "物聯網無線網路中封包碰撞的主要原因為何？應如何解決 此問題？",
+      "options": [
+        {
+          "id": "A",
+          "text": "信號強度過高；降低傳輸功率",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "多個設備同時傳輸；實施 CSMA/CA 協議",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "頻寬壅塞；增加頻寬",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "天線信號太弱；切換到更強的天線",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 21,
+      "question": "駭客入侵物聯網設備後，常使用下列哪一種手法進行分散式 阻斷攻擊(DDoS)？",
+      "options": [
+        {
+          "id": "A",
+          "text": "零時差攻擊(Zero-Day Vulnerability)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "網路釣魚(Phishing)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "中間人攻擊(Man-in-the-middle Attack)",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "殭屍網路(Botnet)攻擊",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 22,
+      "question": "在智慧物聯網的解決方案中，下列哪一項對於防止個資及機 敏資料洩露沒有幫助？",
+      "options": [
+        {
+          "id": "A",
+          "text": "資料傳輸加密",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "身份認證及權限管控",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "資料去識別化",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "DDoS 監控",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 23,
+      "question": "下列哪一種加密機制可以防止物聯網通信中的竊聽攻擊？",
+      "options": [
+        {
+          "id": "A",
+          "text": "公鑰加密",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "雜湊函數",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "數位簽章",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Base64",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 24,
+      "question": "在物聯網安全中，下列哪一項攻擊屬於阻斷服務攻擊(DoS) 的例子？",
+      "options": [
+        {
+          "id": "A",
+          "text": "攻擊者持續發送大量請求使系統資源耗盡",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "攻擊者竊聽數據傳輸內容",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "攻擊者破解密碼進入系統",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "攻擊者篡改通信數據並重發以製造假象",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 25,
+      "question": "雪崩效應是指 Hash 雜湊函數的下列何種特性？",
+      "options": [
+        {
+          "id": "A",
+          "text": "大數據量會導致 Hash 函數無法運行",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Hash 函數在計算過程中逐漸變慢",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Hash 函數在多個節點間的結果不一致",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "輸入的微小變化會導致輸出的 Hash 值大幅變動",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 26,
+      "question": "下列哪一個是 Arduino UNO 微控制器內建 LED 的預設腳 位？",
+      "options": [
+        {
+          "id": "A",
+          "text": "數位腳位 D1",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "數位腳位 D5",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "數位腳位 D9",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "數位腳位 D13",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 27,
+      "question": "修改物件需要使用 RESTful API 中的下列哪一個方法？",
+      "options": [
+        {
+          "id": "A",
+          "text": "PUT",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "POST",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "DELETE",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "GET",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 28,
+      "question": "對於 Raspberry Pi 與 Arduino Uno 硬體與介面的比較，下列 何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Raspberry Pi 與 Arduino Uno 同樣內建 ADC (Analog-to-Digital Conversion)介面",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Raspberry Pi 與 Arduino Uno 同樣內建 SPI(Serial Peripheral Interface)介面",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Raspberry Pi 上的處理器為 SoC(System on Chip) 與 Arduino 上的微控制器(microcontroller)屬於不 同類型的硬體",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Raspberry Pi 內需要安裝 OS，Arduino Uno 不需要",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 29,
+      "question": "對於 IoT 裝置與雲平台間資料交換的相關敘述，下列何者錯 誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "MQTT 是 Publish/Subscribe 的運作方式，各個 MQTT Client 透過 MQTT Broker 交換資料",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "MQTT 的標頭(Header)與 HTTP 不同，為二進制 (Binary)格式",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "MQTT 的 QoS 有 10 種類型",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "MQTT 支援 SSL/TLS 加密傳送",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 30,
+      "question": "下列何種通訊方式為半雙工？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bluetooth",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "TCP/IP",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "I2C",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "FM Radio",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 31,
+      "question": "物聯網裝置中常使用的 GPIO，下列敘述哪一項正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "一種通訊協議",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "通用輸入/輸出介面用於訊號控制",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "一種儲存裝置",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "無線通訊模組",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 32,
+      "question": "下列哪一項「不」是樹莓派內建的輸入輸出介面？",
+      "options": [
+        {
+          "id": "A",
+          "text": "GPIO",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "USB",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "HDMI",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "RS-232",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 33,
+      "question": "RS-485 是一種適合應用在工業物聯網之資料通訊的介面標 準，關於其技術特性，下列何者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "RS-485 可支援半雙工與全雙工",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "RS-485 可實現多點通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "RS-485 採用並列傳輸(Parallel Communication)",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "RS-485 沒有偵錯機制",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 34,
+      "question": "使用 Arduino IDE 新增一個 ino 檔時，下列哪一項會是此檔 案的預設函式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "include()",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "loop()",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "begin()",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "start()",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 35,
+      "question": "在設計物聯網設備時，選擇微控制器(MCU)時，為了確保 設備能穩定運行並支援多種感測器的高效通訊，應優先考慮 下列哪一項特性？",
+      "options": [
+        {
+          "id": "A",
+          "text": "支持多種通訊介面(如 I²C、SPI、UART)",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "高時脈頻率以加快處理速度",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "具備高功率輸出引腳以直接驅動負載",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "配置大型內部快閃記憶體以存儲大量數據",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 36,
+      "question": "關於 Arduino Uno 數位及類比腳位使用方式的敘述，下列何 者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "如要使用數位腳位驅動 LED，該腳位狀態需設成 「OUTPUT」及邏輯準位設成「HIGH」",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "如要使用數位腳位讀取按鍵(Button)的狀態，並且 不連接外部電阻，則應將內部上拉電阻啟用",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "類比輸入(Analog Input)腳位為具有數位類比轉換 器(Digital to analog converter, DAC)硬體的腳位",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "類比輸出(Analog Output)腳位為具有脈波寬度調 變(Pulse-width modulation, PWM)硬體的腳位",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 37,
+      "question": "關於物聯網常見通訊介面 I2 C、UART、SPI 的敘述，下列何 者錯誤？",
+      "options": [
+        {
+          "id": "A",
+          "text": "I 2 C 介面是 Master Slave 的運作架構，一個 Master 裝 置可以連接多個 Slave 裝置",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "UART 介面只能在裝置間 1 對 1 通訊，以非同步 (Asynchronous)模式傳送資料",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "SPI 介面可以連接多個裝置，Master 裝置可透過 Slave 裝置上的 SS(Slave Select)或 CS(Chip Select)腳位選擇要與該裝置通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "UART 介面通訊速率最快，因此被廣泛使用",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 38,
+      "question": "HTTP 和 MQTT 的敘述，下列哪一項正確？",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTTP 和 MQTT 皆具有 QoS 機制",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "HTTP 和 MQTT 都屬於網路第七層協定",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "HTTP 可以實現雙向即時通訊，MQTT 無法實現",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "HTTP 和 MQTT 都無法實現雙向即時通訊",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 39,
+      "question": "智慧物聯網從數據採集到產生數據可視化報表和數位儀表 板的過程中，為什麼需要雲端服務平台，最主要因素為下列 哪一項？",
+      "options": [
+        {
+          "id": "A",
+          "text": "簡化視覺化報表系統管理的複雜性",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "提高系統可快速水平擴展的高可用性及報表反應速 度",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "提高報表和視覺化內容正確性",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "自動優化可視化報表",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 40,
+      "question": "在物聯網中，下列何種技術通常用於將感測器所收集到的大 量資料轉成人類易於理解的形式？",
+      "options": [
+        {
+          "id": "A",
+          "text": "機器學習",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "資料採礦",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "資料視覺化",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "資料儲存",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 41,
+      "question": "物聯網的智慧工廠中如果想要用圖表展示鍋爐的溫度變化， 下列哪一種圖表最適合使用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "散點圖",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "柱狀圖",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "圓餅圖",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "折線圖",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 42,
+      "question": "下列哪一項元件在工業自動化系統中，可進行 IoT 資料收集 與即時控制？",
+      "options": [
+        {
+          "id": "A",
+          "text": "圖形處理器(Graphics Processing Unit, GPU)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "可程式化邏輯控制器(Programmable Logic Controller ,PLC)",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "數位訊號處理器(Digital Signal Processor, DSP)",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "現場可程式化邏輯閘陣列(Field Programmable Gate Array, FPGA)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 43,
+      "question": "在設計物聯網系統時，為了高效管理分散式裝置生成的大量 感測器資料，選擇使用 NoSQL 資料庫時需要特別考慮下列 哪一項特性？",
+      "options": [
+        {
+          "id": "A",
+          "text": "資料庫的 ACID 屬性以保證交易的強一致性",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "資料庫是否支援巢狀查詢以加速複雜資料分析",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "資料庫是否提供原生的 SQL 查詢語言以便於開發",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "資料庫的分片(Sharding)與副本(Replication)機 制以提升可用性與讀寫性能",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 44,
+      "question": "在車聯網應用系統中，為了高效處理來自多感測器的大規模 數據並提取價值，應優先考慮下列哪種資料分析框架特性？",
+      "options": [
+        {
+          "id": "A",
+          "text": "提供內建數據壓縮功能以節省存儲空間",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "支援即時數據處理以應對高頻率數據更新",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "提供豐富的數據可視化工具以方便結果展示",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "內建靜態數據批次處理功能以減少運算成本",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 45,
+      "question": "在物聯網系統中，下列何者特性為 JSON 格式被廣泛用於數 據交換？",
+      "options": [
+        {
+          "id": "A",
+          "text": "JSON 支援關聯式資料庫查詢語言，可直接進行高級 資料分析",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "JSON 具有輕量級和易於解析的特性，適合資源受限 的設備",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "JSON 格式能高效處理二進位資料",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "JSON 提供內建的加密機制，確保資料安全性",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 46,
+      "question": "物聯網設備通常需要進行韌體更新。下列哪一項雲端功能最 有助於大規模設備管理？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Web Hosting",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Load Balance",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Device Twin",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Auto Scaling",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 47,
+      "question": "下列哪種情況「非」CoAP 的主要應用？",
+      "options": [
+        {
+          "id": "A",
+          "text": "視訊會議",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "邊緣設備之間的低功耗通訊",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "雲端與設備之間的狀態交互查詢",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "多設備之間基於事件驅動的狀態同步",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 48,
+      "question": "一般而言，藉由設備狀態監測，可了解設備故障時的維修時 間紀錄、維修品紀錄，並自動完成設備的狀態履歷。且由系 統通知下次保養項目或更換零件，監控人員即可確實維修、 更換零件。將工廠作業流程進行上述改善，可稱之為下列何 者？",
+      "options": [
+        {
+          "id": "A",
+          "text": "安全衛生管理檢查",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "智慧生產或智慧製造",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "環保資源永續",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "產業降災技術",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 49,
+      "question": "下列哪一項智慧物聯網的應用，無法減少智慧製造流程中的 設備非計畫性停機時間？",
+      "options": [
+        {
+          "id": "A",
+          "text": "產品瑕疵檢測(Defect Detection)",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "物聯網感知設備(IoT Sensors)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "預測性維護(Predictive Maintenance)",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "監控和資料採集系統(SCADA)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    },
+    {
+      "id": 50,
+      "question": "在智慧製造中，下列何者為使用物聯網感測器的最主要目 的？",
+      "options": [
+        {
+          "id": "A",
+          "text": "瑕疵檢測",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "確保每個機台都能 7*24 小時不停機",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "收集即時數據以優化生產流程",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "取代所有從問題發現到問題解決的人工操作",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerCount": 1
+    }
+  ]
+}
