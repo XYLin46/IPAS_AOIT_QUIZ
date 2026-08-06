@@ -159,7 +159,7 @@
         },
         {
           "id": "D",
-          "text": "陀螺儀 科目1：物聯網基礎架構概論",
+          "text": "陀螺儀 ",
           "isCorrect": false
         }
       ],
@@ -321,7 +321,7 @@
         },
         {
           "id": "D",
-          "text": "一個月 科目1：物聯網基礎架構概論",
+          "text": "一個月 ",
           "isCorrect": false
         }
       ],
@@ -483,7 +483,7 @@
         },
         {
           "id": "D",
-          "text": "WPA（Wi-Fi Protected Access）加密機制相較於WEP（Wired Equivalent Privacy）安全性更高 科目1：物聯網基礎架構概論",
+          "text": "WPA（Wi-Fi Protected Access）加密機制相較於WEP（Wired Equivalent Privacy）安全性更高 ",
           "isCorrect": false
         }
       ],
@@ -667,7 +667,7 @@
         },
         {
           "id": "C",
-          "text": "應用層 科目1：物聯網基礎架構概論",
+          "text": "應用層 ",
           "isCorrect": false
         },
         {
@@ -846,7 +846,7 @@
       "options": [
         {
           "id": "A",
-          "text": "硬體使用不需再付費 科目1：物聯網基礎架構概論",
+          "text": "硬體使用不需再付費 ",
           "isCorrect": false
         },
         {
@@ -1004,7 +1004,7 @@
     },
     {
       "id": 38,
-      "question": "穿戴式裝置透過通訊介面連結手機App 與雲端平台運算，發揮更大的 應用空間。例如市面上目前最常見智慧手錶、智慧手環等，是透過下 科目1：物聯網基礎架構概論 列何種內建的感測器蒐集到的感測數據運算分析，進而提供配戴者包 含跑步、走路、躺臥或站立不動等資訊統計？",
+      "question": "穿戴式裝置透過通訊介面連結手機App 與雲端平台運算，發揮更大的 應用空間。例如市面上目前最常見智慧手錶、智慧手環等，是透過下  列何種內建的感測器蒐集到的感測數據運算分析，進而提供配戴者包 含跑步、走路、躺臥或站立不動等資訊統計？",
       "options": [
         {
           "id": "A",
@@ -1143,7 +1143,7 @@
       "options": [
         {
           "id": "A",
-          "text": "定位功能 科目1：物聯網基礎架構概論",
+          "text": "定位功能 ",
           "isCorrect": false
         },
         {
@@ -1293,7 +1293,7 @@
         },
         {
           "id": "D",
-          "text": "即時地位系統（Real-time locating system） 科目1：物聯網基礎架構概論",
+          "text": "即時地位系統（Real-time locating system） ",
           "isCorrect": true
         }
       ],
